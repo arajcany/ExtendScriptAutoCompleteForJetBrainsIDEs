@@ -18,5 +18,5 @@ warnings. Use this library to eliminate such warnings and receive code completio
 
 ## Compatability
 
-Currently supports InDesign, ScriptUI and JavaScript OMV. If you need support for other Adobe CC products, drop me a
-note and I'll see what I can do.
+Currently supports Adobe InDesign 2022 (17.0) Object Model, ScriptUI and JavaScript OMV.  
+If you need support for other Adobe CC products, drop me a note and I'll see what I can do. 

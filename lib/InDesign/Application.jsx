@@ -1791,10 +1791,10 @@ var Application = {
     /**
      * Gets the current value of the specified performance metric.
      *
-     * @param {varies=any} [for] The status to get from InDesign. Can accept: Long Integer or PerformanceMetricOptions enumerator.
+     * @param {varies=any} [forXYZ] The status to get from InDesign. Can accept: Long Integer or PerformanceMetricOptions enumerator.
      * @return varies=any
      */
-    performanceMetric: function (for) {
+    performanceMetric: function (forXYZ) {
         
     },
 
@@ -1835,10 +1835,10 @@ var Application = {
     /**
      * Gets the short name of the specified performance metric.
      *
-     * @param {varies=any} [for] The status to get from InDesign. Can accept: Long Integer or PerformanceMetricOptions enumerator.
+     * @param {varies=any} [forXYZ] The status to get from InDesign. Can accept: Long Integer or PerformanceMetricOptions enumerator.
      * @return string
      */
-    performanceMetricShortName: function (for) {
+    performanceMetricShortName: function (forXYZ) {
         
     },
 
@@ -1846,10 +1846,10 @@ var Application = {
     /**
      * Gets the long name of the specified performance metric.
      *
-     * @param {varies=any} [for] The status to get from InDesign. Can accept: Long Integer or PerformanceMetricOptions enumerator.
+     * @param {varies=any} [forXYZ] The status to get from InDesign. Can accept: Long Integer or PerformanceMetricOptions enumerator.
      * @return string
      */
-    performanceMetricLongName: function (for) {
+    performanceMetricLongName: function (forXYZ) {
         
     },
 
@@ -2836,10 +2836,10 @@ The following are fields in the array for "metadata":
     /**
      * Returns the locale-independent string(s) from the internal string localization database that correspond to the specified string (in the current locale).
      *
-     * @param {string} [for] The string to search for.
+     * @param {string} [forXYZ] The string to search for.
      * @return string
      */
-    findKeyStrings: function (for) {
+    findKeyStrings: function (forXYZ) {
         
     },
 
@@ -2847,10 +2847,10 @@ The following are fields in the array for "metadata":
     /**
      * Translates a key string into localized form based on current application locale.
      *
-     * @param {string} [for] The key string to translate
+     * @param {string} [forXYZ] The key string to translate
      * @return string
      */
-    translateKeyString: function (for) {
+    translateKeyString: function (forXYZ) {
         
     },
 
@@ -2986,3 +2986,5 @@ The following are fields in the array for "metadata":
 
 };
 
+
+var app = Application;

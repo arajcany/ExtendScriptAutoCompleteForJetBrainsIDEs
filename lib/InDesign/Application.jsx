@@ -2,9 +2,9 @@
  * The application.
  *
  *
- * OMV Name: 16.1
- * OMV Time: 3-31-2021 11:1:40
- * OMV Title: Adobe InDesign 2021 (16.1) Object Model
+ * OMV Name: 17.0
+ * OMV Time: 3-21-2022 16:34:19
+ * OMV Title: Adobe InDesign 2022 (17.0) Object Model
  */
 var Application = {
 
@@ -2806,6 +2806,18 @@ The following are fields in the array for "metadata":
      * @return undefined
      */
     cascadeWindows: function () {
+        
+    },
+
+
+    /**
+     * Internal use only: a black box method for use by InDesign Engineering team only.
+     *
+     * @param {string} [internalParameter1] The first internal parameter
+     * @param {string} [internalParameter2] The second internal parameter
+     * @return string
+     */
+    internalMethod: function (internalParameter1, internalParameter2) {
         
     },
 

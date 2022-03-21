@@ -5,6 +5,12 @@ Provided auto-completion and type-hinting for JetBrains IDEs when editing Extend
 If you use JetBrains IDEs to edit JSX files, you will notice that you get lots of ```Unresolved variable or type```
 warnings. Use this library to eliminate such warnings and receive code completion suggestions.
 
+Should work with:  
+- PhpStorm
+- WebStorm
+- IntelliJ
+
+
 ## Installation
 
 1) Download the library

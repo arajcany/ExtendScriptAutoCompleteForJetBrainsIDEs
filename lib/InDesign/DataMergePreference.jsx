@@ -52,28 +52,28 @@ var DataMergePreference = {
      * The offset value of the left margin in the target document.
      * @type {Measurement Unit (Number or String)=any}
      */
-    leftMargin: Measurement Unit (Number or String)=any,
+    leftMargin: undefined,
 
 
     /**
      * The offset value of the top margin in the target document.
      * @type {Measurement Unit (Number or String)=any}
      */
-    topMargin: Measurement Unit (Number or String)=any,
+    topMargin: undefined,
 
 
     /**
      * The offset value of the right margin in the target document.
      * @type {Measurement Unit (Number or String)=any}
      */
-    rightMargin: Measurement Unit (Number or String)=any,
+    rightMargin: undefined,
 
 
     /**
      * The offset value of the bottom margin in the target document.
      * @type {Measurement Unit (Number or String)=any}
      */
-    bottomMargin: Measurement Unit (Number or String)=any,
+    bottomMargin: undefined,
 
 
     /**
@@ -87,14 +87,14 @@ var DataMergePreference = {
      * The amount of space between rows of records in the target document.
      * @type {Measurement Unit (Number or String)=any}
      */
-    rowSpacing: Measurement Unit (Number or String)=any,
+    rowSpacing: undefined,
 
 
     /**
      * The amount of space between columns of records in the target document.
      * @type {Measurement Unit (Number or String)=any}
      */
-    columnSpacing: Measurement Unit (Number or String)=any,
+    columnSpacing: undefined,
 
 
     /**

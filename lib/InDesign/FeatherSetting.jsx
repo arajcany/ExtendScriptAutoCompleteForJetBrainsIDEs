@@ -52,7 +52,7 @@ var FeatherSetting = {
      * The feather width. (Range depends on the unit type. For points: 0 to 1000; for picas: 0 to 83p4; for inches: 0 to 13.8889; for mm: 0 to 352.778; for cm: 0 to 35.277; for ciceros: 0 to 78c2.389.)
      * @type {Measurement Unit (Number or String)=any}
      */
-    width: Measurement Unit (Number or String)=any,
+    width: undefined,
 
 
     /**

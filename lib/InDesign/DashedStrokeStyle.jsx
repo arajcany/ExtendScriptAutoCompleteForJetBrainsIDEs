@@ -69,7 +69,7 @@ var DashedStrokeStyle = {
      * The pattern of dashes and gaps, in the format [dash length1, gap length1, dash length2, gap length2]. Define up to ten values.
      * @type {Measurement Unit (Number or String)=any}
      */
-    dashArray: Measurement Unit (Number or String)=any,
+    dashArray: undefined,
 
 
     /**

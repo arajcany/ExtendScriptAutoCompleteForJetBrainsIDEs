@@ -80,14 +80,14 @@ var SatinSetting = {
      * The distance (in pixels) from the SatinSetting to the satin effect.
      * @type {Measurement Unit (Number or String)=any}
      */
-    distance: Measurement Unit (Number or String)=any,
+    distance: undefined,
 
 
     /**
      * The width (in pixels) of the satin effect.
      * @type {Measurement Unit (Number or String)=any}
      */
-    size: Measurement Unit (Number or String)=any,
+    size: undefined,
 
 
     /**

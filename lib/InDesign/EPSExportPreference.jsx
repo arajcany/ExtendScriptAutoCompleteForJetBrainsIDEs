@@ -45,28 +45,28 @@ var EPSExportPreference = {
      * The height of the bleed area at the bottom of the page. Note: Valid only when use document bleed to print is true.
      * @type {Measurement Unit (Number or String)=any}
      */
-    bleedBottom: Measurement Unit (Number or String)=any,
+    bleedBottom: undefined,
 
 
     /**
      * The width of the bleed area at the inside of the page. Note: Valid only when use document bleed to print is true.
      * @type {Measurement Unit (Number or String)=any}
      */
-    bleedInside: Measurement Unit (Number or String)=any,
+    bleedInside: undefined,
 
 
     /**
      * The width of the bleed area at the outside of the page. Note: Valid only when use document bleed to print is true.
      * @type {Measurement Unit (Number or String)=any}
      */
-    bleedOutside: Measurement Unit (Number or String)=any,
+    bleedOutside: undefined,
 
 
     /**
      * The height of the bleed area at the top of the page. Note: Valid only when use document bleed to print is true.
      * @type {Measurement Unit (Number or String)=any}
      */
-    bleedTop: Measurement Unit (Number or String)=any,
+    bleedTop: undefined,
 
 
     /**

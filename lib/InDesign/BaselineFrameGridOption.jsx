@@ -52,7 +52,7 @@ var BaselineFrameGridOption = {
      * The amount to offset the baseline grid.
      * @type {Measurement Unit (Number or String)=any}
      */
-    startingOffsetForBaselineFrameGrid: Measurement Unit (Number or String)=any,
+    startingOffsetForBaselineFrameGrid: undefined,
 
 
     /**
@@ -66,7 +66,7 @@ var BaselineFrameGridOption = {
      * The distance between grid lines.
      * @type {Measurement Unit (Number or String)=any}
      */
-    baselineFrameGridIncrement: Measurement Unit (Number or String)=any,
+    baselineFrameGridIncrement: undefined,
 
 
     /**

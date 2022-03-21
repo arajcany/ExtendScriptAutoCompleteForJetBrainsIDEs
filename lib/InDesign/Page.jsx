@@ -70,7 +70,7 @@ var Page = {
      * @type {Measurement Unit (Number or String)=any}
      * @readonly
      */
-    bounds: Measurement Unit (Number or String)=any,
+    bounds: undefined,
 
 
     /**
@@ -542,14 +542,14 @@ var Page = {
     /**
      * Transform the page item.
      *
-     * @param {CoordinateSpaces} [in] The coordinate space to use
+     * @param {CoordinateSpaces} [inXYZ] The coordinate space to use
      * @param {varies=any} [from] The temporary origin during the transformation. Can accept: Array of 2 Reals, AnchorPoint enumerator or Array of Arrays of 2 Reals, CoordinateSpaces enumerators, AnchorPoint enumerators, BoundingBoxLimits enumerators or Long Integers.
      * @param {varies=any} [withMatrix] Transform matrix. Can accept: Array of 6 Reals or TransformationMatrix.
      * @param {varies=any} [replacingCurrent] Transform components to consider; providing this optional parameter causes the target's existing transform components to be replaced with new values.  Without this parameter, the given matrix is concatenated onto the target's existing transform combining the effect of the two. Can accept: MatrixContent enumerator, Array of MatrixContent enumerators or Long Integer. (Optional)
      * @param {boolean} [consideringRulerUnits] If true then a ruler based origin is interpreted using ruler units rather than points. The default value is false. This parameter has no effect unless the reference point is specified relative to a page. (Optional) (default: false)
      * @return undefined
      */
-    transform: function (in, from, withMatrix, replacingCurrent, consideringRulerUnits) {
+    transform: function (inXYZ, from, withMatrix, replacingCurrent, consideringRulerUnits) {
         
     },
 
@@ -557,11 +557,11 @@ var Page = {
     /**
      * Move the bounding box of the page item
      *
-     * @param {varies=any} [in] The bounding box to resize. Can accept: CoordinateSpaces enumerator or Ordered array containing coordinateSpace:CoordinateSpaces enumerator, boundsKind:BoundingBoxLimits enumerator.
+     * @param {varies=any} [inXYZ] The bounding box to resize. Can accept: CoordinateSpaces enumerator or Ordered array containing coordinateSpace:CoordinateSpaces enumerator, boundsKind:BoundingBoxLimits enumerator.
      * @param {varies=any} [opposingCorners] Opposing corners of new bounding box in the given coordinate space
      * @return undefined
      */
-    reframe: function (in, opposingCorners) {
+    reframe: function (inXYZ, opposingCorners) {
         
     },
 
@@ -569,7 +569,7 @@ var Page = {
     /**
      * Resize the page item.
      *
-     * @param {varies=any} [in] The bounding box to resize. Can accept: CoordinateSpaces enumerator, BoundingBoxLimits enumerator or Ordered array containing coordinateSpace:CoordinateSpaces enumerator, boundsKind:BoundingBoxLimits enumerator.
+     * @param {varies=any} [inXYZ] The bounding box to resize. Can accept: CoordinateSpaces enumerator, BoundingBoxLimits enumerator or Ordered array containing coordinateSpace:CoordinateSpaces enumerator, boundsKind:BoundingBoxLimits enumerator.
      * @param {varies=any} [from] The transform origin. Legal specifications: relative to bounding box: anchor | {anchor | {x,y}, bounds kind [, coordinate space]}; relative to coordinate space: {x,y} | {{x,y}[, coordinate space]}; relative to layout window ruler: {{x,y}, page index | bounds kind}. Can accept: Array of 2 Reals, AnchorPoint enumerator or Array of Arrays of 2 Reals, CoordinateSpaces enumerators, AnchorPoint enumerators, BoundingBoxLimits enumerators or Long Integers.
      * @param {ResizeMethods} [by] How the current dimensions are affected by the given values
      * @param {varies=any} [values] The width and height values. Legal dimensions specifications: {x, y [, coordinate space]}, {x, resize constraint [, coordinate space]}, or {resize constraint, y [, coordinate space]}; where x and y are real numbers and coordinate space is used to determine _only_ the unit of length for x and y; coordinate space is ignored for the 'current dimensions times' resize method). Can accept: Array of Reals, ResizeConstraints enumerators or CoordinateSpaces enumerators.
@@ -577,7 +577,7 @@ var Page = {
      * @param {boolean} [consideringRulerUnits] If true then a ruler location is interpreted using ruler units rather than points. The default value is false. This parameter has no effect unless the reference point is specified relative to a page. (Optional) (default: false)
      * @return undefined
      */
-    resize: function (in, from, by, values, resizeIndividually, consideringRulerUnits) {
+    resize: function (inXYZ, from, by, values, resizeIndividually, consideringRulerUnits) {
         
     },
 
@@ -585,10 +585,10 @@ var Page = {
     /**
      * Get the transformation values of the page item.
      *
-     * @param {CoordinateSpaces} [in] The coordinate space to use
+     * @param {CoordinateSpaces} [inXYZ] The coordinate space to use
      * @return TransformationMatrix
      */
-    transformValuesOf: function (in) {
+    transformValuesOf: function (inXYZ) {
         
     },
 
@@ -597,11 +597,11 @@ var Page = {
      * Get the coordinates of the given location in the specified coordinate system.
      *
      * @param {varies=any} [location] The location requested. Can accept: Array of 2 Reals, AnchorPoint enumerator or Array of Arrays of 2 Reals, CoordinateSpaces enumerators, AnchorPoint enumerators, BoundingBoxLimits enumerators or Long Integers.
-     * @param {CoordinateSpaces} [in] The coordinate space to use.
+     * @param {CoordinateSpaces} [inXYZ] The coordinate space to use.
      * @param {boolean} [consideringRulerUnits] If true then a ruler location is interpreted using ruler units rather than points. The default value is false. This parameter has no effect unless the reference point is specified relative to a page. (Optional) (default: false)
      * @return varies=any
      */
-    resolve: function (location, in, consideringRulerUnits) {
+    resolve: function (location, inXYZ, consideringRulerUnits) {
         
     },
 

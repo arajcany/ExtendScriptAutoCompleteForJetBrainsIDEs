@@ -94,7 +94,7 @@ var InnerGlowSetting = {
      * The size of the inner glow.
      * @type {Measurement Unit (Number or String)=any}
      */
-    size: Measurement Unit (Number or String)=any,
+    size: undefined,
 
 
     /**

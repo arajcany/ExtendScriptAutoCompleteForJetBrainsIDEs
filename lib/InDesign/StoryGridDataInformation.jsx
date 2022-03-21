@@ -59,7 +59,7 @@ var StoryGridDataInformation = {
      * The text size.
      * @type {Measurement Unit (Number or String)=any}
      */
-    pointSize: Measurement Unit (Number or String)=any,
+    pointSize: undefined,
 
 
     /**

@@ -69,7 +69,7 @@ var DottedStrokeStyle = {
      * The length of gaps between dots. Define up to five values.
      * @type {Measurement Unit (Number or String)=any}
      */
-    dotArray: Measurement Unit (Number or String)=any,
+    dotArray: undefined,
 
 
     /**

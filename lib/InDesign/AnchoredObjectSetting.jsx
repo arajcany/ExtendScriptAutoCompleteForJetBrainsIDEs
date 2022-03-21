@@ -108,21 +108,21 @@ var AnchoredObjectSetting = {
      * The horizontal (x) offset of the anchored object.
      * @type {Measurement Unit (Number or String)=any}
      */
-    anchorXoffset: Measurement Unit (Number or String)=any,
+    anchorXoffset: undefined,
 
 
     /**
      * The vertical (y) offset of the anchored object. Corresponds to the space after property for above line positioning.
      * @type {Measurement Unit (Number or String)=any}
      */
-    anchorYoffset: Measurement Unit (Number or String)=any,
+    anchorYoffset: undefined,
 
 
     /**
      * The space above an above-line anchored object.
      * @type {Measurement Unit (Number or String)=any}
      */
-    anchorSpaceAbove: Measurement Unit (Number or String)=any,
+    anchorSpaceAbove: undefined,
 
 
     /**

@@ -60,35 +60,35 @@ var MarginPreference = {
      * The distance between columns.
      * @type {Measurement Unit (Number or String)=any}
      */
-    columnGutter: Measurement Unit (Number or String)=any,
+    columnGutter: undefined,
 
 
     /**
      * The top edge of the MarginPreference.
      * @type {Measurement Unit (Number or String)=any}
      */
-    top: Measurement Unit (Number or String)=any,
+    top: undefined,
 
 
     /**
      * The bottom edge of the MarginPreference.
      * @type {Measurement Unit (Number or String)=any}
      */
-    bottom: Measurement Unit (Number or String)=any,
+    bottom: undefined,
 
 
     /**
      * The left edge of the MarginPreference.
      * @type {Measurement Unit (Number or String)=any}
      */
-    left: Measurement Unit (Number or String)=any,
+    left: undefined,
 
 
     /**
      * The right edge of the MarginPreference.
      * @type {Measurement Unit (Number or String)=any}
      */
-    right: Measurement Unit (Number or String)=any,
+    right: undefined,
 
 
     /**
@@ -102,7 +102,7 @@ var MarginPreference = {
      * The distance that each column guide is placed from the left margin, formatted as an array in the format [guide1, guide2, guide3].
      * @type {Measurement Unit (Number or String)=any}
      */
-    columnsPositions: Measurement Unit (Number or String)=any,
+    columnsPositions: undefined,
 
 
     /**

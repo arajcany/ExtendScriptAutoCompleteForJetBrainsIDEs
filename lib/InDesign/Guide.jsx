@@ -114,7 +114,7 @@ var Guide = {
      * The location at which to place the guide relative to the current ruler zero point.
      * @type {Measurement Unit (Number or String)=any}
      */
-    location: Measurement Unit (Number or String)=any,
+    location: undefined,
 
 
     /**
@@ -156,7 +156,7 @@ var Guide = {
      * The zone of the guide.
      * @type {Measurement Unit (Number or String)=any}
      */
-    guideZone: Measurement Unit (Number or String)=any,
+    guideZone: undefined,
 
 
     /**
@@ -247,10 +247,10 @@ var Guide = {
     /**
      * Get the transformation values of the page item.
      *
-     * @param {CoordinateSpaces} [in] The coordinate space to use
+     * @param {CoordinateSpaces} [inXYZ] The coordinate space to use
      * @return TransformationMatrix
      */
-    transformValuesOf: function (in) {
+    transformValuesOf: function (inXYZ) {
         
     },
 
@@ -259,11 +259,11 @@ var Guide = {
      * Get the coordinates of the given location in the specified coordinate system.
      *
      * @param {varies=any} [location] The location requested. Can accept: Array of 2 Reals, AnchorPoint enumerator or Array of Arrays of 2 Reals, CoordinateSpaces enumerators, AnchorPoint enumerators, BoundingBoxLimits enumerators or Long Integers.
-     * @param {CoordinateSpaces} [in] The coordinate space to use.
+     * @param {CoordinateSpaces} [inXYZ] The coordinate space to use.
      * @param {boolean} [consideringRulerUnits] If true then a ruler location is interpreted using ruler units rather than points. The default value is false. This parameter has no effect unless the reference point is specified relative to a page. (Optional) (default: false)
      * @return varies=any
      */
-    resolve: function (location, in, consideringRulerUnits) {
+    resolve: function (location, inXYZ, consideringRulerUnits) {
         
     },
 

@@ -74,7 +74,7 @@ var TabStop = {
      * The position of the tab stop.
      * @type {Measurement Unit (Number or String)=any}
      */
-    position: Measurement Unit (Number or String)=any,
+    position: undefined,
 
 
     /**

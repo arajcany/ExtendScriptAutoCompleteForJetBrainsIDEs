@@ -429,7 +429,7 @@ var PDFExportPreset = {
      * The offset from the edge of the page for page marks.
      * @type {Measurement Unit (Number or String)=any}
      */
-    pageMarksOffset: Measurement Unit (Number or String)=any,
+    pageMarksOffset: undefined,
 
 
     /**
@@ -478,28 +478,28 @@ var PDFExportPreset = {
      * The height of the bleed area at the top of the page. Note: Valid only when use document bleed to print is true.
      * @type {Measurement Unit (Number or String)=any}
      */
-    bleedTop: Measurement Unit (Number or String)=any,
+    bleedTop: undefined,
 
 
     /**
      * The width of the bleed area at the inside of the page. Note: Valid only when use document bleed to print is true.
      * @type {Measurement Unit (Number or String)=any}
      */
-    bleedInside: Measurement Unit (Number or String)=any,
+    bleedInside: undefined,
 
 
     /**
      * The height of the bleed area at the bottom of the page. Note: Valid only when use document bleed to print is true.
      * @type {Measurement Unit (Number or String)=any}
      */
-    bleedBottom: Measurement Unit (Number or String)=any,
+    bleedBottom: undefined,
 
 
     /**
      * The width of the bleed area at the outside of the page. Note: Valid only when use document bleed to print is true.
      * @type {Measurement Unit (Number or String)=any}
      */
-    bleedOutside: Measurement Unit (Number or String)=any,
+    bleedOutside: undefined,
 
 
     /**

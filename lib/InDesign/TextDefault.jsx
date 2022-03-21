@@ -101,28 +101,28 @@ var TextDefault = {
      * The distance to offset the left edge of the paragraph.
      * @type {Measurement Unit (Number or String)=any}
      */
-    paragraphShadingLeftOffset: Measurement Unit (Number or String)=any,
+    paragraphShadingLeftOffset: undefined,
 
 
     /**
      * The distance to offset the right edge of the paragraph.
      * @type {Measurement Unit (Number or String)=any}
      */
-    paragraphShadingRightOffset: Measurement Unit (Number or String)=any,
+    paragraphShadingRightOffset: undefined,
 
 
     /**
      * The distance to offset the top edge of the paragraph.
      * @type {Measurement Unit (Number or String)=any}
      */
-    paragraphShadingTopOffset: Measurement Unit (Number or String)=any,
+    paragraphShadingTopOffset: undefined,
 
 
     /**
      * The distance to offset the bottom edge of the paragraph.
      * @type {Measurement Unit (Number or String)=any}
      */
-    paragraphShadingBottomOffset: Measurement Unit (Number or String)=any,
+    paragraphShadingBottomOffset: undefined,
 
 
     /**
@@ -206,7 +206,7 @@ var TextDefault = {
      * The text size.
      * @type {Measurement Unit (Number or String)=any}
      */
-    pointSize: Measurement Unit (Number or String)=any,
+    pointSize: undefined,
 
 
     /**
@@ -290,7 +290,7 @@ var TextDefault = {
      * The baseline shift applied to the text.
      * @type {Measurement Unit (Number or String)=any}
      */
-    baselineShift: Measurement Unit (Number or String)=any,
+    baselineShift: undefined,
 
 
     /**
@@ -318,7 +318,7 @@ var TextDefault = {
      * The stroke weight applied to the characters of the text.
      * @type {Measurement Unit (Number or String)=any}
      */
-    strokeWeight: Measurement Unit (Number or String)=any,
+    strokeWeight: undefined,
 
 
     /**
@@ -437,14 +437,14 @@ var TextDefault = {
      * The amount by which to offset the underline from the text baseline.
      * @type {Measurement Unit (Number or String)=any}
      */
-    underlineOffset: Measurement Unit (Number or String)=any,
+    underlineOffset: undefined,
 
 
     /**
      * The stroke weight of the underline stroke.
      * @type {Measurement Unit (Number or String)=any}
      */
-    underlineWeight: Measurement Unit (Number or String)=any,
+    underlineWeight: undefined,
 
 
     /**
@@ -500,14 +500,14 @@ var TextDefault = {
      * The amount by which to offset the strikethrough stroke from the text baseline.
      * @type {Measurement Unit (Number or String)=any}
      */
-    strikeThroughOffset: Measurement Unit (Number or String)=any,
+    strikeThroughOffset: undefined,
 
 
     /**
      * The stroke weight of the strikethrough stroke.
      * @type {Measurement Unit (Number or String)=any}
      */
-    strikeThroughWeight: Measurement Unit (Number or String)=any,
+    strikeThroughWeight: undefined,
 
 
     /**
@@ -591,28 +591,28 @@ var TextDefault = {
      * The left line weight of the border of paragraph.
      * @type {Measurement Unit (Number or String)=any}
      */
-    paragraphBorderLeftLineWeight: Measurement Unit (Number or String)=any,
+    paragraphBorderLeftLineWeight: undefined,
 
 
     /**
      * The top line weight of the border of paragraph.
      * @type {Measurement Unit (Number or String)=any}
      */
-    paragraphBorderTopLineWeight: Measurement Unit (Number or String)=any,
+    paragraphBorderTopLineWeight: undefined,
 
 
     /**
      * The right line weight of the border of paragraph.
      * @type {Measurement Unit (Number or String)=any}
      */
-    paragraphBorderRightLineWeight: Measurement Unit (Number or String)=any,
+    paragraphBorderRightLineWeight: undefined,
 
 
     /**
      * The bottom line weight of the border of paragraph.
      * @type {Measurement Unit (Number or String)=any}
      */
-    paragraphBorderBottomLineWeight: Measurement Unit (Number or String)=any,
+    paragraphBorderBottomLineWeight: undefined,
 
 
     /**
@@ -633,7 +633,7 @@ var TextDefault = {
      * The radius in measurement units of the corner effect applied to the top left corner of rectangular shapes and all corners of non-rectangular shapes
      * @type {Measurement Unit (Number or String)=any}
      */
-    paragraphShadingTopLeftCornerRadius: Measurement Unit (Number or String)=any,
+    paragraphShadingTopLeftCornerRadius: undefined,
 
 
     /**
@@ -647,7 +647,7 @@ var TextDefault = {
      * The radius in measurement units of the corner effect applied to the top right corner of rectangular shapes
      * @type {Measurement Unit (Number or String)=any}
      */
-    paragraphShadingTopRightCornerRadius: Measurement Unit (Number or String)=any,
+    paragraphShadingTopRightCornerRadius: undefined,
 
 
     /**
@@ -661,7 +661,7 @@ var TextDefault = {
      * The radius in measurement units of the corner effect applied to the bottom left corner of rectangular shapes
      * @type {Measurement Unit (Number or String)=any}
      */
-    paragraphShadingBottomLeftCornerRadius: Measurement Unit (Number or String)=any,
+    paragraphShadingBottomLeftCornerRadius: undefined,
 
 
     /**
@@ -675,7 +675,7 @@ var TextDefault = {
      * The radius in measurement units of the corner effect applied to the bottom right corner of rectangular shapes
      * @type {Measurement Unit (Number or String)=any}
      */
-    paragraphShadingBottomRightCornerRadius: Measurement Unit (Number or String)=any,
+    paragraphShadingBottomRightCornerRadius: undefined,
 
 
     /**
@@ -689,7 +689,7 @@ var TextDefault = {
      * The radius in measurement units of the corner effect applied to the top left corner of rectangular shapes and all corners of non-rectangular shapes
      * @type {Measurement Unit (Number or String)=any}
      */
-    paragraphBorderTopLeftCornerRadius: Measurement Unit (Number or String)=any,
+    paragraphBorderTopLeftCornerRadius: undefined,
 
 
     /**
@@ -703,7 +703,7 @@ var TextDefault = {
      * The radius in measurement units of the corner effect applied to the top right corner of rectangular shapes
      * @type {Measurement Unit (Number or String)=any}
      */
-    paragraphBorderTopRightCornerRadius: Measurement Unit (Number or String)=any,
+    paragraphBorderTopRightCornerRadius: undefined,
 
 
     /**
@@ -717,7 +717,7 @@ var TextDefault = {
      * The radius in measurement units of the corner effect applied to the bottom left corner of rectangular shapes
      * @type {Measurement Unit (Number or String)=any}
      */
-    paragraphBorderBottomLeftCornerRadius: Measurement Unit (Number or String)=any,
+    paragraphBorderBottomLeftCornerRadius: undefined,
 
 
     /**
@@ -731,7 +731,7 @@ var TextDefault = {
      * The radius in measurement units of the corner effect applied to the bottom right corner of rectangular shapes
      * @type {Measurement Unit (Number or String)=any}
      */
-    paragraphBorderBottomRightCornerRadius: Measurement Unit (Number or String)=any,
+    paragraphBorderBottomRightCornerRadius: undefined,
 
 
     /**
@@ -766,28 +766,28 @@ var TextDefault = {
      * The distance to offset the left edge of the paragraph border.
      * @type {Measurement Unit (Number or String)=any}
      */
-    paragraphBorderLeftOffset: Measurement Unit (Number or String)=any,
+    paragraphBorderLeftOffset: undefined,
 
 
     /**
      * The distance to offset the right edge of the paragraph border.
      * @type {Measurement Unit (Number or String)=any}
      */
-    paragraphBorderRightOffset: Measurement Unit (Number or String)=any,
+    paragraphBorderRightOffset: undefined,
 
 
     /**
      * The distance to offset the top edge of the paragraph border.
      * @type {Measurement Unit (Number or String)=any}
      */
-    paragraphBorderTopOffset: Measurement Unit (Number or String)=any,
+    paragraphBorderTopOffset: undefined,
 
 
     /**
      * The distance to offset the bottom edge of the paragraph border.
      * @type {Measurement Unit (Number or String)=any}
      */
-    paragraphBorderBottomOffset: Measurement Unit (Number or String)=any,
+    paragraphBorderBottomOffset: undefined,
 
 
     /**
@@ -843,35 +843,35 @@ var TextDefault = {
      * The amount to indent the first line.
      * @type {Measurement Unit (Number or String)=any}
      */
-    firstLineIndent: Measurement Unit (Number or String)=any,
+    firstLineIndent: undefined,
 
 
     /**
      * The width of the left indent.
      * @type {Measurement Unit (Number or String)=any}
      */
-    leftIndent: Measurement Unit (Number or String)=any,
+    leftIndent: undefined,
 
 
     /**
      * The width of the right indent.
      * @type {Measurement Unit (Number or String)=any}
      */
-    rightIndent: Measurement Unit (Number or String)=any,
+    rightIndent: undefined,
 
 
     /**
      * The height of the paragraph space above.
      * @type {Measurement Unit (Number or String)=any}
      */
-    spaceBefore: Measurement Unit (Number or String)=any,
+    spaceBefore: undefined,
 
 
     /**
      * The height of the paragraph space below.
      * @type {Measurement Unit (Number or String)=any}
      */
-    spaceAfter: Measurement Unit (Number or String)=any,
+    spaceAfter: undefined,
 
 
     /**
@@ -1046,7 +1046,7 @@ var TextDefault = {
      * The line weight of the rule above.
      * @type {Measurement Unit (Number or String)=any}
      */
-    ruleAboveLineWeight: Measurement Unit (Number or String)=any,
+    ruleAboveLineWeight: undefined,
 
 
     /**
@@ -1060,21 +1060,21 @@ var TextDefault = {
      * The amount to offset the paragraph rule above from the baseline of the first line the paragraph.
      * @type {Measurement Unit (Number or String)=any}
      */
-    ruleAboveOffset: Measurement Unit (Number or String)=any,
+    ruleAboveOffset: undefined,
 
 
     /**
      * The distance to indent the left edge of the paragraph rule above (based on either the text width or the column width of the first line in the paragraph.
      * @type {Measurement Unit (Number or String)=any}
      */
-    ruleAboveLeftIndent: Measurement Unit (Number or String)=any,
+    ruleAboveLeftIndent: undefined,
 
 
     /**
      * The distance to indent the right edge of the paragraph rule above (based on either the text width or the column width of the first line in the paragraph.
      * @type {Measurement Unit (Number or String)=any}
      */
-    ruleAboveRightIndent: Measurement Unit (Number or String)=any,
+    ruleAboveRightIndent: undefined,
 
 
     /**
@@ -1130,7 +1130,7 @@ var TextDefault = {
      * The line weight of the rule below.
      * @type {Measurement Unit (Number or String)=any}
      */
-    ruleBelowLineWeight: Measurement Unit (Number or String)=any,
+    ruleBelowLineWeight: undefined,
 
 
     /**
@@ -1144,21 +1144,21 @@ var TextDefault = {
      * The amount to offset the the paragraph rule below from the baseline of the last line of the paragraph.
      * @type {Measurement Unit (Number or String)=any}
      */
-    ruleBelowOffset: Measurement Unit (Number or String)=any,
+    ruleBelowOffset: undefined,
 
 
     /**
      * The distance to indent the left edge of the paragraph rule below (based on either the text width or the column width of the last line in the paragraph.
      * @type {Measurement Unit (Number or String)=any}
      */
-    ruleBelowLeftIndent: Measurement Unit (Number or String)=any,
+    ruleBelowLeftIndent: undefined,
 
 
     /**
      * The distance to indent the right edge of the paragraph rule below (based on either the text width or the column width of the last line in the paragraph.
      * @type {Measurement Unit (Number or String)=any}
      */
-    ruleBelowRightIndent: Measurement Unit (Number or String)=any,
+    ruleBelowRightIndent: undefined,
 
 
     /**
@@ -1242,7 +1242,7 @@ var TextDefault = {
      * The amount of white space allowed at the end of a line of non-justified text before hypenation begins. Note: Valid when composer is single-line composer.
      * @type {Measurement Unit (Number or String)=any}
      */
-    hyphenationZone: Measurement Unit (Number or String)=any,
+    hyphenationZone: undefined,
 
 
     /**
@@ -1277,7 +1277,7 @@ var TextDefault = {
      * The amount to indent the last line in the paragraph.
      * @type {Measurement Unit (Number or String)=any}
      */
-    lastLineIndent: Measurement Unit (Number or String)=any,
+    lastLineIndent: undefined,
 
 
     /**
@@ -1340,14 +1340,14 @@ var TextDefault = {
      * The starting point (in page coordinates) of a gradient applied to the fill of the text, in the format [x, y].
      * @type {Measurement Unit (Number or String)=any}
      */
-    gradientFillStart: Measurement Unit (Number or String)=any,
+    gradientFillStart: undefined,
 
 
     /**
      * The starting point (in page coordinates) of a gradient applied to the stroke of the text, in the format [x, y].
      * @type {Measurement Unit (Number or String)=any}
      */
-    gradientStrokeStart: Measurement Unit (Number or String)=any,
+    gradientStrokeStart: undefined,
 
 
     /**
@@ -1375,28 +1375,28 @@ var TextDefault = {
      * The inside gutter if the paragraph splits columns
      * @type {Measurement Unit (Number or String)=any}
      */
-    splitColumnInsideGutter: Measurement Unit (Number or String)=any,
+    splitColumnInsideGutter: undefined,
 
 
     /**
      * The outside gutter if the paragraph splits columns
      * @type {Measurement Unit (Number or String)=any}
      */
-    splitColumnOutsideGutter: Measurement Unit (Number or String)=any,
+    splitColumnOutsideGutter: undefined,
 
 
     /**
      * The minimum space before a span or a split column
      * @type {Measurement Unit (Number or String)=any}
      */
-    spanColumnMinSpaceBefore: Measurement Unit (Number or String)=any,
+    spanColumnMinSpaceBefore: undefined,
 
 
     /**
      * The minimum space after a span or a split column
      * @type {Measurement Unit (Number or String)=any}
      */
-    spanColumnMinSpaceAfter: Measurement Unit (Number or String)=any,
+    spanColumnMinSpaceAfter: undefined,
 
 
     /**

@@ -94,7 +94,7 @@ var OuterGlowSetting = {
      * The size of the outer glow.
      * @type {Measurement Unit (Number or String)=any}
      */
-    size: Measurement Unit (Number or String)=any,
+    size: undefined,
 
 
     /**

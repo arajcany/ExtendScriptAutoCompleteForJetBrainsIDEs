@@ -80,7 +80,7 @@ var ViewPreference = {
      * The distance to move a specified object when an arrow key is pressed. (Range depends on the measurement unit. For points: 0.001 to 100; picas: 0p0.001 to 8p4; mm: 0 to 35.278; cm: 0 to 3.5278; inches: 0 to 1.3889; ciceros: 0c0.001 to 7c9.839)
      * @type {Measurement Unit (Number or String)=any}
      */
-    cursorKeyIncrement: Measurement Unit (Number or String)=any,
+    cursorKeyIncrement: undefined,
 
 
     /**

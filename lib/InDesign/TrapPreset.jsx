@@ -68,14 +68,14 @@ var TrapPreset = {
      * The default width for trapping all colors except those involving solid black. (Range depends on unit. For points: 0.0 to 8.0; picas: 0p0 to 0p8; inches: 0 to 0.1111; mm: 0 to 2.822; cm: 0 to .2822; ciceros: 0c0 to 0c7.507)
      * @type {Measurement Unit (Number or String)=any}
      */
-    defaultTrapWidth: Measurement Unit (Number or String)=any,
+    defaultTrapWidth: undefined,
 
 
     /**
      * The black width. (Range depends on unit. For points: 0.0 to 8.0; picas: 0p0 to 0p8; inches: 0 to 0.1111; mm: 0 to 2.822; cm: 0 to .2822; ciceros: 0c0 to 0c7.507)
      * @type {Measurement Unit (Number or String)=any}
      */
-    blackWidth: Measurement Unit (Number or String)=any,
+    blackWidth: undefined,
 
 
     /**

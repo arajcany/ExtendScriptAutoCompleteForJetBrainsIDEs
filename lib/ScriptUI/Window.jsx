@@ -382,10 +382,10 @@ var Window = {
     /**
      * Closes this window.
      *
-     * @param {Any} [return] A number to be returned from the show() method that invoked this window as a modal dialog.
+     * @param {Any} [returnXYZ] A number to be returned from the show() method that invoked this window as a modal dialog.
      * @return undefined
      */
-    close: function (return) {
+    close: function (returnXYZ) {
         
     },
 

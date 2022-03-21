@@ -52,28 +52,28 @@ var DirectionalFeatherSetting = {
      * The feather width (in pixels) on the left side of the DirectionalFeatherSetting.
      * @type {Measurement Unit (Number or String)=any}
      */
-    leftWidth: Measurement Unit (Number or String)=any,
+    leftWidth: undefined,
 
 
     /**
      * The feather width (in pixels) on the right side of the DirectionalFeatherSetting. (Range: .2 to 250)
      * @type {Measurement Unit (Number or String)=any}
      */
-    rightWidth: Measurement Unit (Number or String)=any,
+    rightWidth: undefined,
 
 
     /**
      * The feather width (in pixels) on the top side of the object DirectionalFeatherSetting. (Range: .2 to 250)
      * @type {Measurement Unit (Number or String)=any}
      */
-    topWidth: Measurement Unit (Number or String)=any,
+    topWidth: undefined,
 
 
     /**
      * The feather width (in pixels) on the bottom side of the object DirectionalFeatherSetting. (Range: .2 to 250)
      * @type {Measurement Unit (Number or String)=any}
      */
-    bottomWidth: Measurement Unit (Number or String)=any,
+    bottomWidth: undefined,
 
 
     /**

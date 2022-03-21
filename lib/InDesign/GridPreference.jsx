@@ -59,14 +59,14 @@ var GridPreference = {
      * The amount of space between major horizontal lines in the document grid.
      * @type {Measurement Unit (Number or String)=any}
      */
-    horizontalGridlineDivision: Measurement Unit (Number or String)=any,
+    horizontalGridlineDivision: undefined,
 
 
     /**
      * The amount of space between major vertical lines in the document grid.
      * @type {Measurement Unit (Number or String)=any}
      */
-    verticalGridlineDivision: Measurement Unit (Number or String)=any,
+    verticalGridlineDivision: undefined,
 
 
     /**
@@ -108,14 +108,14 @@ var GridPreference = {
      * The amount to offset the baseline grid from the zero point.
      * @type {Measurement Unit (Number or String)=any}
      */
-    baselineStart: Measurement Unit (Number or String)=any,
+    baselineStart: undefined,
 
 
     /**
      * The amount of space between baseline grid lines.
      * @type {Measurement Unit (Number or String)=any}
      */
-    baselineDivision: Measurement Unit (Number or String)=any,
+    baselineDivision: undefined,
 
 
     /**

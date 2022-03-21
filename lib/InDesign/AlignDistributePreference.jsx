@@ -59,7 +59,7 @@ var AlignDistributePreference = {
      * The distance to use when distributing page items.
      * @type {Measurement Unit (Number or String)=any}
      */
-    distributeAbsoluteMeasurement: Measurement Unit (Number or String)=any,
+    distributeAbsoluteMeasurement: undefined,
 
 
     /**
@@ -73,7 +73,7 @@ var AlignDistributePreference = {
      * The distance to use when distributing page items.
      * @type {Measurement Unit (Number or String)=any}
      */
-    distributeSpaceAbsoluteMeasurement: Measurement Unit (Number or String)=any,
+    distributeSpaceAbsoluteMeasurement: undefined,
 
 
     /**

@@ -74,14 +74,14 @@ var GradientFeatherSetting = {
      * The length of the axial gradient, or radius of the radial gradient.
      * @type {Measurement Unit (Number or String)=any}
      */
-    length: Measurement Unit (Number or String)=any,
+    length: undefined,
 
 
     /**
      * The center point (for a radial gradient) or starting point (for a linear gradient) applied to the fill, as page coordinates in the format [x, y].
      * @type {Measurement Unit (Number or String)=any}
      */
-    gradientStart: Measurement Unit (Number or String)=any,
+    gradientStart: undefined,
 
 
     /**
@@ -95,7 +95,7 @@ var GradientFeatherSetting = {
      * The hilite length of the radial gradient feather.
      * @type {Measurement Unit (Number or String)=any}
      */
-    hiliteLength: Measurement Unit (Number or String)=any,
+    hiliteLength: undefined,
 
 
     /**

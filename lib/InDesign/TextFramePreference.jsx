@@ -52,14 +52,14 @@ var TextFramePreference = {
      * The space between columns in the text frame.
      * @type {Measurement Unit (Number or String)=any}
      */
-    textColumnGutter: Measurement Unit (Number or String)=any,
+    textColumnGutter: undefined,
 
 
     /**
      * The column width of the columns in the text frame.
      * @type {Measurement Unit (Number or String)=any}
      */
-    textColumnFixedWidth: Measurement Unit (Number or String)=any,
+    textColumnFixedWidth: undefined,
 
 
     /**
@@ -87,7 +87,7 @@ var TextFramePreference = {
      * The minimum distance between the baseline of the text and the top inset of the text frame or cell.
      * @type {Measurement Unit (Number or String)=any}
      */
-    minimumFirstBaselineOffset: Measurement Unit (Number or String)=any,
+    minimumFirstBaselineOffset: undefined,
 
 
     /**
@@ -101,7 +101,7 @@ var TextFramePreference = {
      * The maximum amount of vertical space between two paragraphs. Note: Valid only when vertical justification is justified; the specified amount is applied in addition to the space before or space after values defined for the paragraph.
      * @type {Measurement Unit (Number or String)=any}
      */
-    verticalThreshold: Measurement Unit (Number or String)=any,
+    verticalThreshold: undefined,
 
 
     /**
@@ -122,7 +122,7 @@ var TextFramePreference = {
      * The maximum column width of the columns in the text frame. Use 0 to indicate no upper limit.
      * @type {Measurement Unit (Number or String)=any}
      */
-    textColumnMaxWidth: Measurement Unit (Number or String)=any,
+    textColumnMaxWidth: undefined,
 
 
     /**
@@ -150,7 +150,7 @@ var TextFramePreference = {
      * The minimum height for auto-sizing of the text frame.
      * @type {Measurement Unit (Number or String)=any}
      */
-    minimumHeightForAutoSizing: Measurement Unit (Number or String)=any,
+    minimumHeightForAutoSizing: undefined,
 
 
     /**
@@ -164,7 +164,7 @@ var TextFramePreference = {
      * The minimum width for auto-sizing of the text frame.
      * @type {Measurement Unit (Number or String)=any}
      */
-    minimumWidthForAutoSizing: Measurement Unit (Number or String)=any,
+    minimumWidthForAutoSizing: undefined,
 
 
     /**
@@ -262,14 +262,14 @@ var TextFramePreference = {
      * Minimum Spacing Before First Footnote
      * @type {Measurement Unit (Number or String)=any}
      */
-    footnotesMinimumSpacing: Measurement Unit (Number or String)=any,
+    footnotesMinimumSpacing: undefined,
 
 
     /**
      * Space between footnotes.
      * @type {Measurement Unit (Number or String)=any}
      */
-    footnotesSpaceBetween: Measurement Unit (Number or String)=any,
+    footnotesSpaceBetween: undefined,
 
 
     /**

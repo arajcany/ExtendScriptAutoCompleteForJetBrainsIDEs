@@ -1676,7 +1676,7 @@ var Document = {
      * The ruler origin, specified as page coordinates in the format [x, y].
      * @type {Measurement Unit (Number or String)=any}
      */
-    zeroPoint: Measurement Unit (Number or String)=any,
+    zeroPoint: undefined,
 
 
     /**

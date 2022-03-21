@@ -115,14 +115,14 @@ var FootnoteOption = {
      * The amount of vertical space between footnotes. Note: The space before and space after defined for the paragraph style applied to the footnote is ignored.
      * @type {Measurement Unit (Number or String)=any}
      */
-    spaceBetween: Measurement Unit (Number or String)=any,
+    spaceBetween: undefined,
 
 
     /**
      * The minimum amount of vertical space between the bottom of the text column and the first footnote. Note: The space before amount defined in the paragraph style applied to the footnote is ignored for the first footnote.
      * @type {Measurement Unit (Number or String)=any}
      */
-    spacer: Measurement Unit (Number or String)=any,
+    spacer: undefined,
 
 
     /**
@@ -136,7 +136,7 @@ var FootnoteOption = {
      * The minimum distance between the baseline of the text and the top of the footnote container.
      * @type {Measurement Unit (Number or String)=any}
      */
-    footnoteMinimumFirstBaselineOffset: Measurement Unit (Number or String)=any,
+    footnoteMinimumFirstBaselineOffset: undefined,
 
 
     /**
@@ -171,7 +171,7 @@ var FootnoteOption = {
      * The stroke weight of the rule above the first footnote in the column. (Range: 0 to 1000) Note: Valid when rule on is true.
      * @type {Measurement Unit (Number or String)=any}
      */
-    ruleLineWeight: Measurement Unit (Number or String)=any,
+    ruleLineWeight: undefined,
 
 
     /**
@@ -220,21 +220,21 @@ var FootnoteOption = {
      * The amount to left indent the rule above the first footnote in the column. Note: Valid when rule on is true.
      * @type {Measurement Unit (Number or String)=any}
      */
-    ruleLeftIndent: Measurement Unit (Number or String)=any,
+    ruleLeftIndent: undefined,
 
 
     /**
      * The length of the rule above the first footnote in the column. Note: Valid when rule on is true.
      * @type {Measurement Unit (Number or String)=any}
      */
-    ruleWidth: Measurement Unit (Number or String)=any,
+    ruleWidth: undefined,
 
 
     /**
      * The vertical offset of the rule above the first footnote in the column. Note: Valid when rule on is true.
      * @type {Measurement Unit (Number or String)=any}
      */
-    ruleOffset: Measurement Unit (Number or String)=any,
+    ruleOffset: undefined,
 
 
     /**
@@ -255,7 +255,7 @@ var FootnoteOption = {
      * The stroke weight of the rule above continued footnote text. (Range: 0 to 1000) Note: Valid when continuing rule on is true.
      * @type {Measurement Unit (Number or String)=any}
      */
-    continuingRuleLineWeight: Measurement Unit (Number or String)=any,
+    continuingRuleLineWeight: undefined,
 
 
     /**
@@ -304,21 +304,21 @@ var FootnoteOption = {
      * The amount to left indent the rule above continued footnote text. Note: Valid when continuing rule on is true.
      * @type {Measurement Unit (Number or String)=any}
      */
-    continuingRuleLeftIndent: Measurement Unit (Number or String)=any,
+    continuingRuleLeftIndent: undefined,
 
 
     /**
      * The length of the rule above continued footnote text. Note: Valid when continuing rule on is true.
      * @type {Measurement Unit (Number or String)=any}
      */
-    continuingRuleWidth: Measurement Unit (Number or String)=any,
+    continuingRuleWidth: undefined,
 
 
     /**
      * The vertical offset of the rule above continued footnote text. Note: Valid when continuing rule on is true.
      * @type {Measurement Unit (Number or String)=any}
      */
-    continuingRuleOffset: Measurement Unit (Number or String)=any,
+    continuingRuleOffset: undefined,
 
 
     /**

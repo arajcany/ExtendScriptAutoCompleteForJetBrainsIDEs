@@ -80,14 +80,14 @@ var BevelAndEmbossSetting = {
      * The size of the bevel or emboss.
      * @type {Measurement Unit (Number or String)=any}
      */
-    size: Measurement Unit (Number or String)=any,
+    size: undefined,
 
 
     /**
      * The amount (in pixels) of softening.
      * @type {Measurement Unit (Number or String)=any}
      */
-    soften: Measurement Unit (Number or String)=any,
+    soften: undefined,
 
 
     /**

@@ -60,21 +60,21 @@ var PathPoint = {
      * The location of the path point on the page, in the format [x, y].
      * @type {Measurement Unit (Number or String)=any}
      */
-    anchor: Measurement Unit (Number or String)=any,
+    anchor: undefined,
 
 
     /**
      * The left-direction point, which controls the curve of the line segment preceding the path point on the path, in the format [x, y].
      * @type {Measurement Unit (Number or String)=any}
      */
-    leftDirection: Measurement Unit (Number or String)=any,
+    leftDirection: undefined,
 
 
     /**
      * The right-direction point, which controls the curve of the line segment following the path point on the path, in the format [x, y].
      * @type {Measurement Unit (Number or String)=any}
      */
-    rightDirection: Measurement Unit (Number or String)=any,
+    rightDirection: undefined,
 
 
     /**

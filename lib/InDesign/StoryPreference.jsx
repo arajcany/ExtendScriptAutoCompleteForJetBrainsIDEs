@@ -52,7 +52,7 @@ var StoryPreference = {
      * The point size used as the basis for calculating optical margin alignment. (Range: 0.1 to 1296)
      * @type {Measurement Unit (Number or String)=any}
      */
-    opticalMarginSize: Measurement Unit (Number or String)=any,
+    opticalMarginSize: undefined,
 
 
     /**

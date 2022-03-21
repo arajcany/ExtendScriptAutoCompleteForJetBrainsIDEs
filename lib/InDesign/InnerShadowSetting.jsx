@@ -45,14 +45,14 @@ var InnerShadowSetting = {
      * The horizontal offset of the shadow
      * @type {Measurement Unit (Number or String)=any}
      */
-    xOffset: Measurement Unit (Number or String)=any,
+    xOffset: undefined,
 
 
     /**
      * The vertical offset of the shadow
      * @type {Measurement Unit (Number or String)=any}
      */
-    yOffset: Measurement Unit (Number or String)=any,
+    yOffset: undefined,
 
 
     /**
@@ -94,7 +94,7 @@ var InnerShadowSetting = {
      * The distance between the InnerShadowSetting and the shadow.
      * @type {Measurement Unit (Number or String)=any}
      */
-    distance: Measurement Unit (Number or String)=any,
+    distance: undefined,
 
 
     /**
@@ -115,7 +115,7 @@ var InnerShadowSetting = {
      * The size of the inner shadow.
      * @type {Measurement Unit (Number or String)=any}
      */
-    size: Measurement Unit (Number or String)=any,
+    size: undefined,
 
 
     /**

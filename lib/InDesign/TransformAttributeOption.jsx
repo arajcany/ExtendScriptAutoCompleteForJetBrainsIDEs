@@ -45,28 +45,28 @@ var TransformAttributeOption = {
      * The left position of the object, defined by the object style.
      * @type {Measurement Unit (Number or String)=any}
      */
-    transformAttrX: Measurement Unit (Number or String)=any,
+    transformAttrX: undefined,
 
 
     /**
      * The top position of the object, defined by the object style.
      * @type {Measurement Unit (Number or String)=any}
      */
-    transformAttrY: Measurement Unit (Number or String)=any,
+    transformAttrY: undefined,
 
 
     /**
      * The width of the object, defined by the object style.
      * @type {Measurement Unit (Number or String)=any}
      */
-    transformAttrWidth: Measurement Unit (Number or String)=any,
+    transformAttrWidth: undefined,
 
 
     /**
      * The height of the object, defined by the object style.
      * @type {Measurement Unit (Number or String)=any}
      */
-    transformAttrHeight: Measurement Unit (Number or String)=any,
+    transformAttrHeight: undefined,
 
 
     /**

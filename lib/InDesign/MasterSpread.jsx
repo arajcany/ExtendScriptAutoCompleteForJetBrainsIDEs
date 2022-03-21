@@ -433,14 +433,14 @@ var MasterSpread = {
     /**
      * Transform the page item.
      *
-     * @param {CoordinateSpaces} [in] The coordinate space to use
+     * @param {CoordinateSpaces} [inXYZ] The coordinate space to use
      * @param {varies=any} [from] The temporary origin during the transformation. Can accept: Array of 2 Reals, AnchorPoint enumerator or Array of Arrays of 2 Reals, CoordinateSpaces enumerators, AnchorPoint enumerators, BoundingBoxLimits enumerators or Long Integers.
      * @param {varies=any} [withMatrix] Transform matrix. Can accept: Array of 6 Reals or TransformationMatrix.
      * @param {varies=any} [replacingCurrent] Transform components to consider; providing this optional parameter causes the target's existing transform components to be replaced with new values.  Without this parameter, the given matrix is concatenated onto the target's existing transform combining the effect of the two. Can accept: MatrixContent enumerator, Array of MatrixContent enumerators or Long Integer. (Optional)
      * @param {boolean} [consideringRulerUnits] If true then a ruler based origin is interpreted using ruler units rather than points. The default value is false. This parameter has no effect unless the reference point is specified relative to a page. (Optional) (default: false)
      * @return undefined
      */
-    transform: function (in, from, withMatrix, replacingCurrent, consideringRulerUnits) {
+    transform: function (inXYZ, from, withMatrix, replacingCurrent, consideringRulerUnits) {
         
     },
 
@@ -448,10 +448,10 @@ var MasterSpread = {
     /**
      * Get the transformation values of the page item.
      *
-     * @param {CoordinateSpaces} [in] The coordinate space to use
+     * @param {CoordinateSpaces} [inXYZ] The coordinate space to use
      * @return TransformationMatrix
      */
-    transformValuesOf: function (in) {
+    transformValuesOf: function (inXYZ) {
         
     },
 
@@ -460,11 +460,11 @@ var MasterSpread = {
      * Get the coordinates of the given location in the specified coordinate system.
      *
      * @param {varies=any} [location] The location requested. Can accept: Array of 2 Reals, AnchorPoint enumerator or Array of Arrays of 2 Reals, CoordinateSpaces enumerators, AnchorPoint enumerators, BoundingBoxLimits enumerators or Long Integers.
-     * @param {CoordinateSpaces} [in] The coordinate space to use.
+     * @param {CoordinateSpaces} [inXYZ] The coordinate space to use.
      * @param {boolean} [consideringRulerUnits] If true then a ruler location is interpreted using ruler units rather than points. The default value is false. This parameter has no effect unless the reference point is specified relative to a page. (Optional) (default: false)
      * @return varies=any
      */
-    resolve: function (location, in, consideringRulerUnits) {
+    resolve: function (location, inXYZ, consideringRulerUnits) {
         
     },
 

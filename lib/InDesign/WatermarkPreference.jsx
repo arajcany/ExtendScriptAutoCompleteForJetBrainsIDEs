@@ -122,7 +122,7 @@ var WatermarkPreference = {
      * Watermark horizontal offset for a document
      * @type {Measurement Unit (Number or String)=any}
      */
-    watermarkHorizontalOffset: Measurement Unit (Number or String)=any,
+    watermarkHorizontalOffset: undefined,
 
 
     /**
@@ -136,7 +136,7 @@ var WatermarkPreference = {
      * Watermark vertical offset for a document
      * @type {Measurement Unit (Number or String)=any}
      */
-    watermarkVerticalOffset: Measurement Unit (Number or String)=any,
+    watermarkVerticalOffset: undefined,
 
 
     /**

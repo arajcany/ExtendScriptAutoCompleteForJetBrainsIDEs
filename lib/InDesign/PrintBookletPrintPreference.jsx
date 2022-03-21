@@ -169,14 +169,14 @@ var PrintBookletPrintPreference = {
      * The amount of space to offset the page from the left edge of the imageable area.
      * @type {Measurement Unit (Number or String)=any}
      */
-    paperOffset: Measurement Unit (Number or String)=any,
+    paperOffset: undefined,
 
 
     /**
      * The space between document pages on the printing medium.
      * @type {Measurement Unit (Number or String)=any}
      */
-    paperGap: Measurement Unit (Number or String)=any,
+    paperGap: undefined,
 
 
     /**
@@ -295,7 +295,7 @@ var PrintBookletPrintPreference = {
      * The distance to offset the page marks from the edge of the page.
      * @type {Measurement Unit (Number or String)=any}
      */
-    markOffset: Measurement Unit (Number or String)=any,
+    markOffset: undefined,
 
 
     /**
@@ -309,28 +309,28 @@ var PrintBookletPrintPreference = {
      * The height of the bleed area at the top of the page. Note: Valid only when use document bleed to print is true.
      * @type {Measurement Unit (Number or String)=any}
      */
-    bleedTop: Measurement Unit (Number or String)=any,
+    bleedTop: undefined,
 
 
     /**
      * The height of the bleed area at the bottom of the page. Note: Valid only when use document bleed to print is true.
      * @type {Measurement Unit (Number or String)=any}
      */
-    bleedBottom: Measurement Unit (Number or String)=any,
+    bleedBottom: undefined,
 
 
     /**
      * The width of the bleed area at the inside of the page. Note: Valid only when use document bleed to print is true.
      * @type {Measurement Unit (Number or String)=any}
      */
-    bleedInside: Measurement Unit (Number or String)=any,
+    bleedInside: undefined,
 
 
     /**
      * The width of the bleed area at the outside of the page. Note: Valid only when use document bleed to print is true.
      * @type {Measurement Unit (Number or String)=any}
      */
-    bleedOutside: Measurement Unit (Number or String)=any,
+    bleedOutside: undefined,
 
 
     /**

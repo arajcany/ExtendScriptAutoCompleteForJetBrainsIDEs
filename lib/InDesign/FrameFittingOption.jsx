@@ -52,28 +52,28 @@ var FrameFittingOption = {
      * The amount in measurement units to crop the left edge of a graphic.
      * @type {Measurement Unit (Number or String)=any}
      */
-    leftCrop: Measurement Unit (Number or String)=any,
+    leftCrop: undefined,
 
 
     /**
      * The amount in measurement units to crop the top edge of a graphic.
      * @type {Measurement Unit (Number or String)=any}
      */
-    topCrop: Measurement Unit (Number or String)=any,
+    topCrop: undefined,
 
 
     /**
      * The amount in measurement units to crop the right edge of a graphic.
      * @type {Measurement Unit (Number or String)=any}
      */
-    rightCrop: Measurement Unit (Number or String)=any,
+    rightCrop: undefined,
 
 
     /**
      * The amount in measurement units to crop the bottom edge of a graphic.
      * @type {Measurement Unit (Number or String)=any}
      */
-    bottomCrop: Measurement Unit (Number or String)=any,
+    bottomCrop: undefined,
 
 
     /**

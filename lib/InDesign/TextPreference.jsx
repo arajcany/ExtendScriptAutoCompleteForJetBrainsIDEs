@@ -136,14 +136,14 @@ var TextPreference = {
      * The amount that leading increases each time the user presses the option/alt-up arrow keys or decreases each time the user presses the option/alt-down arrow keys. (Range: .001 to 100)
      * @type {Measurement Unit (Number or String)=any}
      */
-    leadingKeyIncrement: Measurement Unit (Number or String)=any,
+    leadingKeyIncrement: undefined,
 
 
     /**
      * The amount that the baseline shift increases each time the user presses the option/alt-shift-up arrow keys or decreases each time the user presses the option/alt-shift-down arrow keys. (Range: .001 to 100)
      * @type {Measurement Unit (Number or String)=any}
      */
-    baselineShiftKeyIncrement: Measurement Unit (Number or String)=any,
+    baselineShiftKeyIncrement: undefined,
 
 
     /**

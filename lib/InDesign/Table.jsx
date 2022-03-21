@@ -331,21 +331,21 @@ var Table = {
      * The height of the Table. For a table or column, specifies the sum of the row heights.
      * @type {Measurement Unit (Number or String)=any}
      */
-    height: Measurement Unit (Number or String)=any,
+    height: undefined,
 
 
     /**
      * The width of the Table. For a table or row, specifies the sum of the column widths.
      * @type {Measurement Unit (Number or String)=any}
      */
-    width: Measurement Unit (Number or String)=any,
+    width: undefined,
 
 
     /**
      * The stroke weight of the table's top border stroke.
      * @type {Measurement Unit (Number or String)=any}
      */
-    topBorderStrokeWeight: Measurement Unit (Number or String)=any,
+    topBorderStrokeWeight: undefined,
 
 
     /**
@@ -401,7 +401,7 @@ var Table = {
      * The stroke weight of the left border stroke.
      * @type {Measurement Unit (Number or String)=any}
      */
-    leftBorderStrokeWeight: Measurement Unit (Number or String)=any,
+    leftBorderStrokeWeight: undefined,
 
 
     /**
@@ -457,7 +457,7 @@ var Table = {
      * The stroke weight of the bottom border stroke.
      * @type {Measurement Unit (Number or String)=any}
      */
-    bottomBorderStrokeWeight: Measurement Unit (Number or String)=any,
+    bottomBorderStrokeWeight: undefined,
 
 
     /**
@@ -513,7 +513,7 @@ var Table = {
      * The stroke weight of the right border stroke.
      * @type {Measurement Unit (Number or String)=any}
      */
-    rightBorderStrokeWeight: Measurement Unit (Number or String)=any,
+    rightBorderStrokeWeight: undefined,
 
 
     /**
@@ -569,14 +569,14 @@ var Table = {
      * The space above the table.
      * @type {Measurement Unit (Number or String)=any}
      */
-    spaceBefore: Measurement Unit (Number or String)=any,
+    spaceBefore: undefined,
 
 
     /**
      * The space below the table.
      * @type {Measurement Unit (Number or String)=any}
      */
-    spaceAfter: Measurement Unit (Number or String)=any,
+    spaceAfter: undefined,
 
 
     /**
@@ -611,7 +611,7 @@ var Table = {
      * The stroke weight of row borders in the first alternating row strokes group. Note: Valid when start row stroke count is 1 or greater.
      * @type {Measurement Unit (Number or String)=any}
      */
-    startRowStrokeWeight: Measurement Unit (Number or String)=any,
+    startRowStrokeWeight: undefined,
 
 
     /**
@@ -674,7 +674,7 @@ var Table = {
      * The stroke weight of row borders in the second alternating row strokes group. Note: Valid when end row stroke count is 1 or greater.
      * @type {Measurement Unit (Number or String)=any}
      */
-    endRowStrokeWeight: Measurement Unit (Number or String)=any,
+    endRowStrokeWeight: undefined,
 
 
     /**
@@ -751,7 +751,7 @@ var Table = {
      * The stroke weight of column borders in the first alternating column strokes group. Note: Valid when start column stroke count is 1 or greater.
      * @type {Measurement Unit (Number or String)=any}
      */
-    startColumnStrokeWeight: Measurement Unit (Number or String)=any,
+    startColumnStrokeWeight: undefined,
 
 
     /**
@@ -814,7 +814,7 @@ var Table = {
      * The stroke weight of column borders in the second alternating column strokes group. Note: Valid when end column stroke count is 1 or greater.
      * @type {Measurement Unit (Number or String)=any}
      */
-    endColumnStrokeWeight: Measurement Unit (Number or String)=any,
+    endColumnStrokeWeight: undefined,
 
 
     /**
@@ -1066,28 +1066,28 @@ var Table = {
      * The left inset of the graphic cell.
      * @type {Measurement Unit (Number or String)=any}
      */
-    graphicLeftInset: Measurement Unit (Number or String)=any,
+    graphicLeftInset: undefined,
 
 
     /**
      * The top inset of the graphic cell.
      * @type {Measurement Unit (Number or String)=any}
      */
-    graphicTopInset: Measurement Unit (Number or String)=any,
+    graphicTopInset: undefined,
 
 
     /**
      * The right inset of the graphic cell.
      * @type {Measurement Unit (Number or String)=any}
      */
-    graphicRightInset: Measurement Unit (Number or String)=any,
+    graphicRightInset: undefined,
 
 
     /**
      * The bottom inset of the graphic cell.
      * @type {Measurement Unit (Number or String)=any}
      */
-    graphicBottomInset: Measurement Unit (Number or String)=any,
+    graphicBottomInset: undefined,
 
 
     /**
@@ -1101,28 +1101,28 @@ var Table = {
      * The top inset of the text cell.
      * @type {Measurement Unit (Number or String)=any}
      */
-    textTopInset: Measurement Unit (Number or String)=any,
+    textTopInset: undefined,
 
 
     /**
      * The left inset of the text cell.
      * @type {Measurement Unit (Number or String)=any}
      */
-    textLeftInset: Measurement Unit (Number or String)=any,
+    textLeftInset: undefined,
 
 
     /**
      * The bottom inset of the text cell.
      * @type {Measurement Unit (Number or String)=any}
      */
-    textBottomInset: Measurement Unit (Number or String)=any,
+    textBottomInset: undefined,
 
 
     /**
      * The right inset of the text cell.
      * @type {Measurement Unit (Number or String)=any}
      */
-    textRightInset: Measurement Unit (Number or String)=any,
+    textRightInset: undefined,
 
 
     /**

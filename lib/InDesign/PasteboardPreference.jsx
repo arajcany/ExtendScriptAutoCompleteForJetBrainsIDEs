@@ -45,7 +45,7 @@ var PasteboardPreference = {
      * The minimum horizontal and vertical pasteboard margins. A horizontal margin of -1 means one document page width
      * @type {Measurement Unit (Number or String)=any}
      */
-    pasteboardMargins: Measurement Unit (Number or String)=any,
+    pasteboardMargins: undefined,
 
 
     /**

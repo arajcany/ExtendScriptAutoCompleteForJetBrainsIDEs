@@ -118,7 +118,7 @@ var ClippingPathSettings = {
      * Shrinks the area enclosed by the clipping path by the specified amount. (Range depends on the unit. For points: -10000 to 10000; picas: -833p4 to 833p4; inches: -138.8889 to 138.8889; mm: -3527.778 to 3527.778; cm: -352.7778 to 352.7778; ciceros: -781c11.889 to 781c11.889)
      * @type {Measurement Unit (Number or String)=any}
      */
-    insetFrame: Measurement Unit (Number or String)=any,
+    insetFrame: undefined,
 
 
     /**

@@ -59,21 +59,21 @@ var PrintBookletOption = {
      * The amount of space between pages.
      * @type {Measurement Unit (Number or String)=any}
      */
-    spaceBetweenPages: Measurement Unit (Number or String)=any,
+    spaceBetweenPages: undefined,
 
 
     /**
      * The amount of bleed between pages.
      * @type {Measurement Unit (Number or String)=any}
      */
-    bleedBetweenPages: Measurement Unit (Number or String)=any,
+    bleedBetweenPages: undefined,
 
 
     /**
      * The amount of creep (binding adjustment based on paper thickness) to add.
      * @type {Measurement Unit (Number or String)=any}
      */
-    creep: Measurement Unit (Number or String)=any,
+    creep: undefined,
 
 
     /**
@@ -87,28 +87,28 @@ var PrintBookletOption = {
      * Top margin of the printed booklet.
      * @type {Measurement Unit (Number or String)=any}
      */
-    topMargin: Measurement Unit (Number or String)=any,
+    topMargin: undefined,
 
 
     /**
      * Bottom margin of the printed booklet.
      * @type {Measurement Unit (Number or String)=any}
      */
-    bottomMargin: Measurement Unit (Number or String)=any,
+    bottomMargin: undefined,
 
 
     /**
      * Left margin of the printed booklet.
      * @type {Measurement Unit (Number or String)=any}
      */
-    leftMargin: Measurement Unit (Number or String)=any,
+    leftMargin: undefined,
 
 
     /**
      * Right margin of the printed booklet.
      * @type {Measurement Unit (Number or String)=any}
      */
-    rightMargin: Measurement Unit (Number or String)=any,
+    rightMargin: undefined,
 
 
     /**

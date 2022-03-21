@@ -113,28 +113,28 @@ var PageItemDefault = {
      * The radius in measurement units of the corner effect applied to the top left corner of rectangular shapes and all corners of non-rectangular shapes
      * @type {Measurement Unit (Number or String)=any}
      */
-    topLeftCornerRadius: Measurement Unit (Number or String)=any,
+    topLeftCornerRadius: undefined,
 
 
     /**
      * The radius in measurement units of the corner effect applied to the top right corner of rectangular shapes
      * @type {Measurement Unit (Number or String)=any}
      */
-    topRightCornerRadius: Measurement Unit (Number or String)=any,
+    topRightCornerRadius: undefined,
 
 
     /**
      * The radius in measurement units of the corner effect applied to the bottom left corner of rectangular shapes
      * @type {Measurement Unit (Number or String)=any}
      */
-    bottomLeftCornerRadius: Measurement Unit (Number or String)=any,
+    bottomLeftCornerRadius: undefined,
 
 
     /**
      * The radius in measurement units of the corner effect applied to the bottom right corner of rectangular shapes
      * @type {Measurement Unit (Number or String)=any}
      */
-    bottomRightCornerRadius: Measurement Unit (Number or String)=any,
+    bottomRightCornerRadius: undefined,
 
 
     /**
@@ -176,7 +176,7 @@ var PageItemDefault = {
      * The weight (in points) to apply to the PageItemDefault's stroke.
      * @type {Measurement Unit (Number or String)=any}
      */
-    strokeWeight: Measurement Unit (Number or String)=any,
+    strokeWeight: undefined,
 
 
     /**

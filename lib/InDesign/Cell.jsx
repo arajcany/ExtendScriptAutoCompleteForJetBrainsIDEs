@@ -429,14 +429,14 @@ var Cell = {
      * The height of the Cell. For a table or column, specifies the sum of the row heights.
      * @type {Measurement Unit (Number or String)=any}
      */
-    height: Measurement Unit (Number or String)=any,
+    height: undefined,
 
 
     /**
      * The width of the Cell. For a table or row, specifies the sum of the column widths.
      * @type {Measurement Unit (Number or String)=any}
      */
-    width: Measurement Unit (Number or String)=any,
+    width: undefined,
 
 
     /**
@@ -464,35 +464,35 @@ var Cell = {
      * The starting point (in page coordinates) of a gradient applied to the fill of the Cell, in the format [x, y].
      * @type {Measurement Unit (Number or String)=any}
      */
-    gradientFillStart: Measurement Unit (Number or String)=any,
+    gradientFillStart: undefined,
 
 
     /**
      * The top inset of the cell. The API has been deprecated. Use TextTopInset or GraphicTopInset
      * @type {Measurement Unit (Number or String)=any}
      */
-    topInset: Measurement Unit (Number or String)=any,
+    topInset: undefined,
 
 
     /**
      * The left inset of the cell.The API has been deprecated. Use TextLeftInset or GraphicLeftInset
      * @type {Measurement Unit (Number or String)=any}
      */
-    leftInset: Measurement Unit (Number or String)=any,
+    leftInset: undefined,
 
 
     /**
      * The bottom inset of the cell.The API has been deprecated. Use TextBottomInset or GraphicBottomInset
      * @type {Measurement Unit (Number or String)=any}
      */
-    bottomInset: Measurement Unit (Number or String)=any,
+    bottomInset: undefined,
 
 
     /**
      * The right inset of the cell.The API has been deprecated. Use TextLeftInset or GraphicRightInset
      * @type {Measurement Unit (Number or String)=any}
      */
-    rightInset: Measurement Unit (Number or String)=any,
+    rightInset: undefined,
 
 
     /**
@@ -541,7 +541,7 @@ var Cell = {
      * The diagonal line stroke weight.
      * @type {Measurement Unit (Number or String)=any}
      */
-    diagonalLineStrokeWeight: Measurement Unit (Number or String)=any,
+    diagonalLineStrokeWeight: undefined,
 
 
     /**
@@ -618,14 +618,14 @@ var Cell = {
      * The maximum space that can be added between paragraphs in a cell. Note: Valid only when vertical justification is justified.
      * @type {Measurement Unit (Number or String)=any}
      */
-    paragraphSpacingLimit: Measurement Unit (Number or String)=any,
+    paragraphSpacingLimit: undefined,
 
 
     /**
      * The space between the baseline of the text and the top inset of the frame or cell.
      * @type {Measurement Unit (Number or String)=any}
      */
-    minimumFirstBaselineOffset: Measurement Unit (Number or String)=any,
+    minimumFirstBaselineOffset: undefined,
 
 
     /**
@@ -639,7 +639,7 @@ var Cell = {
      * The stroke weight of the left edge border stroke.
      * @type {Measurement Unit (Number or String)=any}
      */
-    leftEdgeStrokeWeight: Measurement Unit (Number or String)=any,
+    leftEdgeStrokeWeight: undefined,
 
 
     /**
@@ -695,7 +695,7 @@ var Cell = {
      * The stroke weight of the top edge border stroke.
      * @type {Measurement Unit (Number or String)=any}
      */
-    topEdgeStrokeWeight: Measurement Unit (Number or String)=any,
+    topEdgeStrokeWeight: undefined,
 
 
     /**
@@ -751,7 +751,7 @@ var Cell = {
      * The stroke weight of the right edge border stroke.
      * @type {Measurement Unit (Number or String)=any}
      */
-    rightEdgeStrokeWeight: Measurement Unit (Number or String)=any,
+    rightEdgeStrokeWeight: undefined,
 
 
     /**
@@ -807,7 +807,7 @@ var Cell = {
      * The stroke weight of the bottom edge border stroke.
      * @type {Measurement Unit (Number or String)=any}
      */
-    bottomEdgeStrokeWeight: Measurement Unit (Number or String)=any,
+    bottomEdgeStrokeWeight: undefined,
 
 
     /**
@@ -863,7 +863,7 @@ var Cell = {
      * The stroke weight of the inner row border strokes.
      * @type {Measurement Unit (Number or String)=any}
      */
-    innerRowStrokeWeight: Measurement Unit (Number or String)=any,
+    innerRowStrokeWeight: undefined,
 
 
     /**
@@ -919,7 +919,7 @@ var Cell = {
      * The stroke weight of the inner column border stroke.
      * @type {Measurement Unit (Number or String)=any}
      */
-    innerColumnStrokeWeight: Measurement Unit (Number or String)=any,
+    innerColumnStrokeWeight: undefined,
 
 
     /**
@@ -975,14 +975,14 @@ var Cell = {
      * The minimum height of the cells in the Cell. Note: When auto grow is true, cells can automatically grow larger than this amount when content is added. Also, the minimum height can affect redistribution.
      * @type {Measurement Unit (Number or String)=any}
      */
-    minimumHeight: Measurement Unit (Number or String)=any,
+    minimumHeight: undefined,
 
 
     /**
      * The maximum height to which cells in the Cell may grow. Note: The maximum height cannot be exceeded even when auto grow is set to true. Also, the maximum height can affect redistribution.
      * @type {Measurement Unit (Number or String)=any}
      */
-    maximumHeight: Measurement Unit (Number or String)=any,
+    maximumHeight: undefined,
 
 
     /**
@@ -1024,28 +1024,28 @@ var Cell = {
      * The left inset of the graphic cell.
      * @type {Measurement Unit (Number or String)=any}
      */
-    graphicLeftInset: Measurement Unit (Number or String)=any,
+    graphicLeftInset: undefined,
 
 
     /**
      * The top inset of the graphic cell.
      * @type {Measurement Unit (Number or String)=any}
      */
-    graphicTopInset: Measurement Unit (Number or String)=any,
+    graphicTopInset: undefined,
 
 
     /**
      * The right inset of the graphic cell.
      * @type {Measurement Unit (Number or String)=any}
      */
-    graphicRightInset: Measurement Unit (Number or String)=any,
+    graphicRightInset: undefined,
 
 
     /**
      * The bottom inset of the graphic cell.
      * @type {Measurement Unit (Number or String)=any}
      */
-    graphicBottomInset: Measurement Unit (Number or String)=any,
+    graphicBottomInset: undefined,
 
 
     /**
@@ -1059,28 +1059,28 @@ var Cell = {
      * The top inset of the text cell.
      * @type {Measurement Unit (Number or String)=any}
      */
-    textTopInset: Measurement Unit (Number or String)=any,
+    textTopInset: undefined,
 
 
     /**
      * The left inset of the text cell.
      * @type {Measurement Unit (Number or String)=any}
      */
-    textLeftInset: Measurement Unit (Number or String)=any,
+    textLeftInset: undefined,
 
 
     /**
      * The bottom inset of the text cell.
      * @type {Measurement Unit (Number or String)=any}
      */
-    textBottomInset: Measurement Unit (Number or String)=any,
+    textBottomInset: undefined,
 
 
     /**
      * The right inset of the text cell.
      * @type {Measurement Unit (Number or String)=any}
      */
-    textRightInset: Measurement Unit (Number or String)=any,
+    textRightInset: undefined,
 
 
     /**

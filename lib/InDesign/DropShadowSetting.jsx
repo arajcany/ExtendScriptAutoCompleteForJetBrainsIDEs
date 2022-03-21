@@ -45,7 +45,7 @@ var DropShadowSetting = {
      * The distance between the item and its shadow
      * @type {Measurement Unit (Number or String)=any}
      */
-    distance: Measurement Unit (Number or String)=any,
+    distance: undefined,
 
 
     /**
@@ -80,21 +80,21 @@ var DropShadowSetting = {
      * The horizontal offset of the drop shadow. Range depends on the unit type. For points: -1000 to 1000; for picas: -83p4 to 83p4; for inches: -13.8889 to 13.8889; for mm: -352.778 to 352.778; for cm: -35.277 to 35.277; for ciceros: -78c2.389 to 78c2.389.
      * @type {Measurement Unit (Number or String)=any}
      */
-    xOffset: Measurement Unit (Number or String)=any,
+    xOffset: undefined,
 
 
     /**
      * The vertical offset of the drop shadow. (Range depends on the unit type. For points: -1000 to 1000; for picas: -83p4 to 83p4; for inches: -13.8889 to 13.8889; for mm: -352.778 to 352.778; for cm: -35.277 to 35.277; for ciceros: -78c2.389 to 78c2.389)
      * @type {Measurement Unit (Number or String)=any}
      */
-    yOffset: Measurement Unit (Number or String)=any,
+    yOffset: undefined,
 
 
     /**
      * The radius (in pixels) of the blur applied to the drop shadow. (Range depends on the unit type. For points: 0 to 144; for picas: 0p0 to 12p0; for inches: 0 to 2; for mm: 0 to 50.08; for cm: 0 to 5.08; for ciceros: 0c0 to 11c3.128.)
      * @type {Measurement Unit (Number or String)=any}
      */
-    size: Measurement Unit (Number or String)=any,
+    size: undefined,
 
 
     /**

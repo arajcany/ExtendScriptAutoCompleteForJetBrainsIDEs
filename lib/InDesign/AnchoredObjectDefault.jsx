@@ -52,14 +52,14 @@ var AnchoredObjectDefault = {
      * The initial height of a new anchored object.
      * @type {Measurement Unit (Number or String)=any}
      */
-    initialAnchorHeight: Measurement Unit (Number or String)=any,
+    initialAnchorHeight: undefined,
 
 
     /**
      * The initial width of a new anchored object.
      * @type {Measurement Unit (Number or String)=any}
      */
-    initialAnchorWidth: Measurement Unit (Number or String)=any,
+    initialAnchorWidth: undefined,
 
 
     /**

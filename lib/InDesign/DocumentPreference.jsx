@@ -45,14 +45,14 @@ var DocumentPreference = {
      * The height of the page.
      * @type {Measurement Unit (Number or String)=any}
      */
-    pageHeight: Measurement Unit (Number or String)=any,
+    pageHeight: undefined,
 
 
     /**
      * The width of the page.
      * @type {Measurement Unit (Number or String)=any}
      */
-    pageWidth: Measurement Unit (Number or String)=any,
+    pageWidth: undefined,
 
 
     /**
@@ -101,28 +101,28 @@ var DocumentPreference = {
      * The amount to offset the top document bleed.
      * @type {Measurement Unit (Number or String)=any}
      */
-    documentBleedTopOffset: Measurement Unit (Number or String)=any,
+    documentBleedTopOffset: undefined,
 
 
     /**
      * The amount to offset the bottom document bleed. Note: To set the bleed bottom offset, document bleed uniform size must be false.
      * @type {Measurement Unit (Number or String)=any}
      */
-    documentBleedBottomOffset: Measurement Unit (Number or String)=any,
+    documentBleedBottomOffset: undefined,
 
 
     /**
      * The amount to offset the inside or left document bleed. Note: To set the bleed inside or left offset, document bleed uniform size must be false.
      * @type {Measurement Unit (Number or String)=any}
      */
-    documentBleedInsideOrLeftOffset: Measurement Unit (Number or String)=any,
+    documentBleedInsideOrLeftOffset: undefined,
 
 
     /**
      * The amount to offset the outside or right document bleed. Note: To set the bleed outside or right offset, document bleed uniform size must be false.
      * @type {Measurement Unit (Number or String)=any}
      */
-    documentBleedOutsideOrRightOffset: Measurement Unit (Number or String)=any,
+    documentBleedOutsideOrRightOffset: undefined,
 
 
     /**
@@ -136,28 +136,28 @@ var DocumentPreference = {
      * The amount to offset the top slug.
      * @type {Measurement Unit (Number or String)=any}
      */
-    slugTopOffset: Measurement Unit (Number or String)=any,
+    slugTopOffset: undefined,
 
 
     /**
      * The amount to offset the bottom slug. Note: To set the slug bottom offset, document slug uniform size must be false.
      * @type {Measurement Unit (Number or String)=any}
      */
-    slugBottomOffset: Measurement Unit (Number or String)=any,
+    slugBottomOffset: undefined,
 
 
     /**
      * The amount to offset the inside or left slug. Note: To set the slug inside or left offset, document slug uniform size must be false.
      * @type {Measurement Unit (Number or String)=any}
      */
-    slugInsideOrLeftOffset: Measurement Unit (Number or String)=any,
+    slugInsideOrLeftOffset: undefined,
 
 
     /**
      * The amount to offset the outside or right slug. Note: To set the slug right or outside offset, document slug uniform size must be false.
      * @type {Measurement Unit (Number or String)=any}
      */
-    slugRightOrOutsideOffset: Measurement Unit (Number or String)=any,
+    slugRightOrOutsideOffset: undefined,
 
 
     /**

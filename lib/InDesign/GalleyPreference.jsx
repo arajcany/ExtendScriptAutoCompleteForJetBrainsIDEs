@@ -115,14 +115,14 @@ var GalleyPreference = {
      * Size to use for text display.
      * @type {Measurement Unit (Number or String)=any}
      */
-    displayFontSize: Measurement Unit (Number or String)=any,
+    displayFontSize: undefined,
 
 
     /**
      * Info column width.
      * @type {Measurement Unit (Number or String)=any}
      */
-    infoColumnWidth: Measurement Unit (Number or String)=any,
+    infoColumnWidth: undefined,
 
 
     /**

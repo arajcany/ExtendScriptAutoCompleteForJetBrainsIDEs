@@ -279,14 +279,14 @@ var FormField = {
      * The bounds of the FormField excluding the stroke width, in the format [y1, x1, y2, x2], which give the coordinates of the top-left and bottom-right corners of the bounding box.
      * @type {Measurement Unit (Number or String)=any}
      */
-    geometricBounds: Measurement Unit (Number or String)=any,
+    geometricBounds: undefined,
 
 
     /**
      * The bounds of the FormField including the stroke width, in the format [y1, x1, y2, x2], which give the coordinates of the top-left and bottom-right corners of the bounding box.
      * @type {Measurement Unit (Number or String)=any}
      */
-    visibleBounds: Measurement Unit (Number or String)=any,
+    visibleBounds: undefined,
 
 
     /**
@@ -314,7 +314,7 @@ var FormField = {
      * The weight (in points) to apply to the FormField's stroke.
      * @type {Measurement Unit (Number or String)=any}
      */
-    strokeWeight: Measurement Unit (Number or String)=any,
+    strokeWeight: undefined,
 
 
     /**
@@ -356,7 +356,7 @@ var FormField = {
      * The dash and gap measurements that define the pattern of a custom dashed line. Define up to six values (in points) in the format [dash1, gap1, dash2, gap2, dash3, gap3].
      * @type {Measurement Unit (Number or String)=any}
      */
-    strokeDashAndGap: Measurement Unit (Number or String)=any,
+    strokeDashAndGap: undefined,
 
 
     /**
@@ -391,14 +391,14 @@ var FormField = {
      * The starting point (in page coordinates) of a gradient applied to the fill of the FormField, in the format [x, y].
      * @type {Measurement Unit (Number or String)=any}
      */
-    gradientFillStart: Measurement Unit (Number or String)=any,
+    gradientFillStart: undefined,
 
 
     /**
      * The length (for a linear gradient) or radius (for a radial gradient) applied to the fill of the FormField.
      * @type {Measurement Unit (Number or String)=any}
      */
-    gradientFillLength: Measurement Unit (Number or String)=any,
+    gradientFillLength: undefined,
 
 
     /**
@@ -412,14 +412,14 @@ var FormField = {
      * The starting point (in page coordinates) of a gradient applied to the stroke of the FormField, in the format [x, y].
      * @type {Measurement Unit (Number or String)=any}
      */
-    gradientStrokeStart: Measurement Unit (Number or String)=any,
+    gradientStrokeStart: undefined,
 
 
     /**
      * The length (for a linear gradient) or radius (for a radial gradient) applied to the stroke of the FormField.
      * @type {Measurement Unit (Number or String)=any}
      */
-    gradientStrokeLength: Measurement Unit (Number or String)=any,
+    gradientStrokeLength: undefined,
 
 
     /**
@@ -608,28 +608,28 @@ var FormField = {
      * The radius in measurement units of the corner effect applied to the top left corner of rectangular shapes and all corners of non-rectangular shapes
      * @type {Measurement Unit (Number or String)=any}
      */
-    topLeftCornerRadius: Measurement Unit (Number or String)=any,
+    topLeftCornerRadius: undefined,
 
 
     /**
      * The radius in measurement units of the corner effect applied to the top right corner of rectangular shapes
      * @type {Measurement Unit (Number or String)=any}
      */
-    topRightCornerRadius: Measurement Unit (Number or String)=any,
+    topRightCornerRadius: undefined,
 
 
     /**
      * The radius in measurement units of the corner effect applied to the bottom left corner of rectangular shapes
      * @type {Measurement Unit (Number or String)=any}
      */
-    bottomLeftCornerRadius: Measurement Unit (Number or String)=any,
+    bottomLeftCornerRadius: undefined,
 
 
     /**
      * The radius in measurement units of the corner effect applied to the bottom right corner of rectangular shapes
      * @type {Measurement Unit (Number or String)=any}
      */
-    bottomRightCornerRadius: Measurement Unit (Number or String)=any,
+    bottomRightCornerRadius: undefined,
 
 
     /**
@@ -884,14 +884,14 @@ var FormField = {
     /**
      * Transform the page item.
      *
-     * @param {CoordinateSpaces} [in] The coordinate space to use
+     * @param {CoordinateSpaces} [inXYZ] The coordinate space to use
      * @param {varies=any} [from] The temporary origin during the transformation. Can accept: Array of 2 Reals, AnchorPoint enumerator or Array of Arrays of 2 Reals, CoordinateSpaces enumerators, AnchorPoint enumerators, BoundingBoxLimits enumerators or Long Integers.
      * @param {varies=any} [withMatrix] Transform matrix. Can accept: Array of 6 Reals or TransformationMatrix.
      * @param {varies=any} [replacingCurrent] Transform components to consider; providing this optional parameter causes the target's existing transform components to be replaced with new values.  Without this parameter, the given matrix is concatenated onto the target's existing transform combining the effect of the two. Can accept: MatrixContent enumerator, Array of MatrixContent enumerators or Long Integer. (Optional)
      * @param {boolean} [consideringRulerUnits] If true then a ruler based origin is interpreted using ruler units rather than points. The default value is false. This parameter has no effect unless the reference point is specified relative to a page. (Optional) (default: false)
      * @return undefined
      */
-    transform: function (in, from, withMatrix, replacingCurrent, consideringRulerUnits) {
+    transform: function (inXYZ, from, withMatrix, replacingCurrent, consideringRulerUnits) {
         
     },
 
@@ -899,10 +899,10 @@ var FormField = {
     /**
      * Get the transformation values of the page item.
      *
-     * @param {CoordinateSpaces} [in] The coordinate space to use
+     * @param {CoordinateSpaces} [inXYZ] The coordinate space to use
      * @return TransformationMatrix
      */
-    transformValuesOf: function (in) {
+    transformValuesOf: function (inXYZ) {
         
     },
 
@@ -911,11 +911,11 @@ var FormField = {
      * Get the coordinates of the given location in the specified coordinate system.
      *
      * @param {varies=any} [location] The location requested. Can accept: Array of 2 Reals, AnchorPoint enumerator or Array of Arrays of 2 Reals, CoordinateSpaces enumerators, AnchorPoint enumerators, BoundingBoxLimits enumerators or Long Integers.
-     * @param {CoordinateSpaces} [in] The coordinate space to use.
+     * @param {CoordinateSpaces} [inXYZ] The coordinate space to use.
      * @param {boolean} [consideringRulerUnits] If true then a ruler location is interpreted using ruler units rather than points. The default value is false. This parameter has no effect unless the reference point is specified relative to a page. (Optional) (default: false)
      * @return varies=any
      */
-    resolve: function (location, in, consideringRulerUnits) {
+    resolve: function (location, inXYZ, consideringRulerUnits) {
         
     },
 
@@ -934,7 +934,7 @@ var FormField = {
     /**
      * Resize the page item.
      *
-     * @param {varies=any} [in] The bounding box to resize. Can accept: CoordinateSpaces enumerator, BoundingBoxLimits enumerator or Ordered array containing coordinateSpace:CoordinateSpaces enumerator, boundsKind:BoundingBoxLimits enumerator.
+     * @param {varies=any} [inXYZ] The bounding box to resize. Can accept: CoordinateSpaces enumerator, BoundingBoxLimits enumerator or Ordered array containing coordinateSpace:CoordinateSpaces enumerator, boundsKind:BoundingBoxLimits enumerator.
      * @param {varies=any} [from] The transform origin. Legal specifications: relative to bounding box: anchor | {anchor | {x,y}, bounds kind [, coordinate space]}; relative to coordinate space: {x,y} | {{x,y}[, coordinate space]}; relative to layout window ruler: {{x,y}, page index | bounds kind}. Can accept: Array of 2 Reals, AnchorPoint enumerator or Array of Arrays of 2 Reals, CoordinateSpaces enumerators, AnchorPoint enumerators, BoundingBoxLimits enumerators or Long Integers.
      * @param {ResizeMethods} [by] How the current dimensions are affected by the given values
      * @param {varies=any} [values] The width and height values. Legal dimensions specifications: {x, y [, coordinate space]}, {x, resize constraint [, coordinate space]}, or {resize constraint, y [, coordinate space]}; where x and y are real numbers and coordinate space is used to determine _only_ the unit of length for x and y; coordinate space is ignored for the 'current dimensions times' resize method). Can accept: Array of Reals, ResizeConstraints enumerators or CoordinateSpaces enumerators.
@@ -942,7 +942,7 @@ var FormField = {
      * @param {boolean} [consideringRulerUnits] If true then a ruler location is interpreted using ruler units rather than points. The default value is false. This parameter has no effect unless the reference point is specified relative to a page. (Optional) (default: false)
      * @return undefined
      */
-    resize: function (in, from, by, values, resizeIndividually, consideringRulerUnits) {
+    resize: function (inXYZ, from, by, values, resizeIndividually, consideringRulerUnits) {
         
     },
 
@@ -950,11 +950,11 @@ var FormField = {
     /**
      * Move the bounding box of the page item
      *
-     * @param {varies=any} [in] The bounding box to resize. Can accept: CoordinateSpaces enumerator or Ordered array containing coordinateSpace:CoordinateSpaces enumerator, boundsKind:BoundingBoxLimits enumerator.
+     * @param {varies=any} [inXYZ] The bounding box to resize. Can accept: CoordinateSpaces enumerator or Ordered array containing coordinateSpace:CoordinateSpaces enumerator, boundsKind:BoundingBoxLimits enumerator.
      * @param {varies=any} [opposingCorners] Opposing corners of new bounding box in the given coordinate space
      * @return undefined
      */
-    reframe: function (in, opposingCorners) {
+    reframe: function (inXYZ, opposingCorners) {
         
     },
 

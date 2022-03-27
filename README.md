@@ -24,5 +24,14 @@ Should work with:
 
 ## Compatability
 
-Currently supports Adobe InDesign 2022 (17.0) Object Model, ScriptUI and JavaScript OMV.  
-If you need support for other Adobe CC products, drop me a note and I'll see what I can do. 
+Currently Supports:
+- ScriptUI, JavaScript and $
+- Adobe InDesign 2022 (17.0) Object Model
+- Adobe Bridge 2022 Object Model
+- Adobe Illustrator 26 Type Library
+- Adobe Photoshop CC 2015.5 Object Library
+
+If you need support for other Adobe CC products, drop me a note and I'll see what I can do.
+
+P.S. I tried to add Adobe After Effects support, can't seam to find the OMV file. Can someone send me the filepath please... :)
+

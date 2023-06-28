@@ -26,9 +26,9 @@ Should work with:
 
 Currently Supports:
 - ScriptUI, JavaScript and $
-- Adobe InDesign 2022 (17.0) Object Model
+- Adobe InDesign 2023 (18.0) Object Model
 - Adobe Bridge 2022 Object Model
-- Adobe Illustrator 26 Type Library
+- Adobe Illustrator 27 Type Library
 - Adobe Photoshop CC 2015.5 Object Library
 
 If you need support for other Adobe CC products, drop me a note and I'll see what I can do.

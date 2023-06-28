@@ -70,7 +70,7 @@ var ReflectionInfo = {
      * @type {any}
      * @readonly
      */
-    defaultValue: any,
+    defaultValue: undefined,
 
 
     /**

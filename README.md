@@ -18,7 +18,7 @@ Should work with:
 3) In your IDE open Settings by pressing <kbd> Ctrl + Alt + S</kbd>
 4) Select Languages and Frameworks | JavaScript | Libraries
 5) Click 'Add'
-6) Click the '+' button and 'Attatch Directories'
+6) Click the '+' button and 'Attach Directories'
 7) Navigate to the library on your local drive and click 'OK'
 9) Click 'OK' again
 

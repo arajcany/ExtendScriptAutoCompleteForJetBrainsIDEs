@@ -30,7 +30,7 @@ var MutationEvent = {
      * @type {any}
      * @readonly
      */
-    attributeValue: any,
+    attributeValue: undefined,
 
 
     /**

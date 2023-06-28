@@ -14,7 +14,7 @@ var Event = {
      * @type {any}
      * @readonly
      */
-    NOT_DISPATCHING: any,
+    NOT_DISPATCHING: undefined,
 
 
     /**
@@ -22,7 +22,7 @@ var Event = {
      * @type {any}
      * @readonly
      */
-    CAPTURING_PHASE: any,
+    CAPTURING_PHASE: undefined,
 
 
     /**
@@ -30,7 +30,7 @@ var Event = {
      * @type {any}
      * @readonly
      */
-    AT_TARGET: any,
+    AT_TARGET: undefined,
 
 
     /**
@@ -38,7 +38,7 @@ var Event = {
      * @type {any}
      * @readonly
      */
-    BUBBLING_PHASE: any,
+    BUBBLING_PHASE: undefined,
 
 
     /**

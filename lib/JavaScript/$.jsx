@@ -74,7 +74,7 @@ var $ = {
      * Sets or clears strict mode for object modification.
      * @type {any}
      */
-    strict: any,
+    strict: undefined,
 
 
     /**

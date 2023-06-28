@@ -2653,7 +2653,7 @@
         "superClass": null,
         "shortdesc": null,
         "elementCount": 1,
-        "propertyCount": 8,
+        "propertyCount": 12,
         "methodCount": 0,
         "properties": [
             {
@@ -2726,6 +2726,42 @@
                 "datatype": {
                     "type": "int",
                     "value": "8"
+                }
+            },
+            {
+                "@name": "FeetInches",
+                "@rwaccess": "readonly",
+                "shortdesc": "Ruler units are measured in pixels.",
+                "datatype": {
+                    "type": "int",
+                    "value": "9"
+                }
+            },
+            {
+                "@name": "Meters",
+                "@rwaccess": "readonly",
+                "shortdesc": "Ruler units are measured in pixels.",
+                "datatype": {
+                    "type": "int",
+                    "value": "10"
+                }
+            },
+            {
+                "@name": "Yards",
+                "@rwaccess": "readonly",
+                "shortdesc": "Ruler units are measured in pixels.",
+                "datatype": {
+                    "type": "int",
+                    "value": "11"
+                }
+            },
+            {
+                "@name": "Feet",
+                "@rwaccess": "readonly",
+                "shortdesc": "Ruler units are measured in pixels.",
+                "datatype": {
+                    "type": "int",
+                    "value": "12"
                 }
             }
         ],

@@ -2,9 +2,9 @@
  * A document.
  *
  *
- * OMV Name: 17.0
- * OMV Time: 3-21-2022 16:34:19
- * OMV Title: Adobe InDesign 2022 (17.0) Object Model
+ * OMV Name: 18.0
+ * OMV Time: 6-28-2023 17:55:10
+ * OMV Title: Adobe InDesign 2023 (18.0) Object Model
  */
 var Document = {
 
@@ -663,6 +663,22 @@ var Document = {
      * @readonly
      */
     saved: undefined,
+
+
+    /**
+     * If true, the document is a cloud document.
+     * @type {boolean}
+     * @readonly
+     */
+    isCloudDocument: undefined,
+
+
+    /**
+     * The cloud path in case of a cloud document. Otherwise it throws error.
+     * @type {string}
+     * @readonly
+     */
+    cloudPath: undefined,
 
 
     /**
@@ -2509,6 +2525,28 @@ var Document = {
      * @return undefined
      */
     exportPageItemsToSnippet: function (to, pageItemIds) {
+        
+    },
+
+
+    /**
+     * Save as a cloud document
+     *
+     * @param {string} [cloudPath] The cloud path in case of a cloud document
+     * @return Document
+     */
+    saveAsCloud: function (cloudPath) {
+        
+    },
+
+
+    /**
+     * Save a copy as cloud document
+     *
+     * @param {string} [cloudPath] The cloud path in case of a cloud document
+     * @return Document
+     */
+    saveACopyCloud: function (cloudPath) {
         
     },
 

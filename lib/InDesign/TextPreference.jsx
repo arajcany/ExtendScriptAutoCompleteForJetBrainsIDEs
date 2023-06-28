@@ -2,9 +2,9 @@
  * Text preferences.
  *
  *
- * OMV Name: 17.0
- * OMV Time: 3-21-2022 16:34:19
- * OMV Title: Adobe InDesign 2022 (17.0) Object Model
+ * OMV Name: 18.0
+ * OMV Time: 6-28-2023 17:55:10
+ * OMV Title: Adobe InDesign 2023 (18.0) Object Model
  */
 var TextPreference = {
 
@@ -228,6 +228,13 @@ var TextPreference = {
      * @type {boolean}
      */
     useCidMojikumi: undefined,
+
+
+    /**
+     * If true, modifies indentation for Bulleted Paragraph and Bullets around a Text Wrap object.
+     * @type {boolean}
+     */
+    honourTextIndentsWithTextWrap: undefined,
 
 
     /**

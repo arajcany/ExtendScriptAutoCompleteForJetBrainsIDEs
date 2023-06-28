@@ -2,9 +2,9 @@
  * Generic term for an object in a dialog column or dialog row, including dialog controls such as radio button groups, checkboxes, editboxes, dropdowns, and comboboxes; static text objects; enabling groups; border panels; and nested dialog columns and dialog rows. For information, see dialog column, dialog row, static text, border panel, enabling group, radiobutton group, checkbox control, angle editbox, angle combobox, integer editbox, integer combobox, measurement editbox, measurement combobox, percent editbox, percent combobox, real editbox, real combobox, and text editbox.
  *
  *
- * OMV Name: 17.0
- * OMV Time: 3-21-2022 16:34:19
- * OMV Title: Adobe InDesign 2022 (17.0) Object Model
+ * OMV Name: 18.0
+ * OMV Time: 6-28-2023 17:55:10
+ * OMV Title: Adobe InDesign 2023 (18.0) Object Model
  */
 var Widget = {
 

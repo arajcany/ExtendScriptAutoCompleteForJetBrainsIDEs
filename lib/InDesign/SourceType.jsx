@@ -2,9 +2,9 @@
  * The source type of alternate or actual text
  *
  *
- * OMV Name: 17.0
- * OMV Time: 3-21-2022 16:34:19
- * OMV Title: Adobe InDesign 2022 (17.0) Object Model
+ * OMV Name: 18.0
+ * OMV Time: 6-28-2023 17:55:10
+ * OMV Title: Adobe InDesign 2023 (18.0) Object Model
  */
 var SourceType = {
 
@@ -55,6 +55,22 @@ var SourceType = {
      * @readonly
      */
     SOURCE_XML_STRUCTURE: 1934907507,
+
+
+    /**
+     * XMP Alt Text
+     * @type {number}
+     * @readonly
+     */
+    SOURCE_XMP_ALT_TEXT: 1934907489,
+
+
+    /**
+     * XMP Extended Description
+     * @type {number}
+     * @readonly
+     */
+    SOURCE_XMP_EXTENDED_DESCRIPTION: 1934907493,
 
 
 

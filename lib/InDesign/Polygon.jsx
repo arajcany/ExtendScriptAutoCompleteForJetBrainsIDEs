@@ -2,9 +2,9 @@
  * A polygon. Any shape that is not a rectangle, ellipse, or graphic line. When you add a polygon, InDesign creates a regular polygon based on the current polygon preferences settings.
  *
  *
- * OMV Name: 17.0
- * OMV Time: 3-21-2022 16:34:19
- * OMV Title: Adobe InDesign 2022 (17.0) Object Model
+ * OMV Name: 18.0
+ * OMV Time: 6-28-2023 17:55:10
+ * OMV Title: Adobe InDesign 2023 (18.0) Object Model
  */
 var Polygon = {
 
